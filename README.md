@@ -78,8 +78,10 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Protection des accès** : Utilisez des identifiants complexes (Ne jamais utiliser l'identifiant par défaut admin) et modifiez si possible l'URL de connexion par défaut (/wp-admin ou /wp-login.php).
 
-- **Sécuriser le fichier `wp-config.php`** en déplaçant ses droits d'accès ou en restreignant la lecture.
+- **Sécuriser le fichier `wp-config.php`** : en déplaçant ses droits d'accès ou en restreignant la lecture.
 
 - **Appliquer le principe du moindre privilège pour les rôles utilisateurs** : Administrateur, Éditeur, Auteur, Contributeur, Abonné.
 
-- **Limiter les tentatives de connexion** pour bloquer les attaques par force brute.
+- **Limiter les tentatives de connexion** : pour bloquer les attaques par force brute.
+
+- **Maintenance** : Toujours réaliser une sauvegarde ( les fichiers + la base de données) avant de lancer les mises à jour majeures du cœur ou des plugins.
