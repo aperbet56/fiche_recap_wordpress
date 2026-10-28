@@ -7,8 +7,8 @@ Ce guide regroupe les concepts essentiels, l'architecture et les commandes indis
 ## 1. ⚠️ Les distinctions capitales
 
 - **WordPress.org vs WordPress.com** :
-  - _wordPress.org_(le CMS) : Gratuit, open-source et auto-hébergé. Vous achetez votre hébergement, possédez 100 % de vos données et installez ce que vous voulez. C'est la solution standard pour les professionnels.
-  - _wordPress.com_(la plateforme) : Service clé en main commercial. Plus simple mais bridé, payant dès que l'on veut personnaliser le site en profondeur.
+  - _wordPress.org_ (le CMS) : Gratuit, open-source et auto-hébergé. Vous achetez votre hébergement, possédez 100 % de vos données et installez ce que vous voulez. C'est la solution standard pour les professionnels.
+  - _wordPress.com_ (la plateforme) : Service clé en main commercial. Plus simple mais bridé, payant dès que l'on veut personnaliser le site en profondeur.
 - **Articles (Posts) vs Pages** :
   - _Articles_ : Contenu chronologique, temporel, organisé par catégories et étiquettes (ex: blog, actualités).
   - _Pages_ : Contenu statique, hiérarchique, indépendant du temps (ex: À propos, Contact).
