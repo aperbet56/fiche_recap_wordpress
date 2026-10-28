@@ -39,3 +39,11 @@ WordPress segmente nativement les publications en deux types :
   - _Organisées de manière hiérarchique (ex: Page enfant Nos Valeurs sous la page parente À Propos)_
   - _Pas de notion de date de publication mise en avant, pas de catégories._
   - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
+
+## 4. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
+
+- **Tableau de bord** : Vue d'ensemble de l'activité du site et alertes de mises à jour.
+- **Médias** : Bibliothèque centrale stockant vos images, vidéos, PDF et documents.
+- **Apparence** : Gestion des thèmes, des menus de navigation et de l'Éditeur de site.
+- **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
+- **Réglages** : Configuration technique critique.
