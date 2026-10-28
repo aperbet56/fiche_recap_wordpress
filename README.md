@@ -32,13 +32,13 @@ WordPress segmente nativement les publications en deux types :
 
 - **Les Articles (Flux dynamique)** :
 
-  - _Classés par ordre chronologique inverse._
+  - _Classés par ordre chronologique inverse (du plus récent au plus ancien)._
   - _Organisés par Catégories (obligatoires) et Étiquettes / Tags (optionnels)._
   - _Idéaux pour les blogs, l'actualité, les portfolios ou les actualités._
   - _Intègrent un espace de commentaires pour l'interaction._
 
 - **Les Pages (Structure statique)** :
-  - _Organisées de manière hiérarchique (ex: Page enfant Nos Valeurs sous la page parente À Propos)_
+  - _Organisées de manière hiérarchique (ex: Page enfant Nos Valeurs sous la page parente À Propos) Classés par structure hiérarchique (Parents / Enfants)_
   - _Pas de notion de date de publication mise en avant, pas de catégories._
   - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
 
