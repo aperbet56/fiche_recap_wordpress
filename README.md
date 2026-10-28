@@ -62,13 +62,13 @@ WordPress segmente nativement les publications en deux types :
 
 Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
-- **Visibilité pour les moteurs de recherche** : Durant la phase de développement, l'option "Demander aux moteurs de recherche de ne pas indexer ce site" (Réglages > Lecture) doit être cochée. **Elle doit absolument être décochée au moment de la mise en production**.
+- **Visibilité pour les moteurs de recherche** : Durant la phase de développement, l'option "Demander aux moteurs de recherche de ne pas indexer ce site" (`Réglages > Lecture`) doit être cochée. **Elle doit absolument être décochée au moment de la mise en production**.
 
-- **Structure des URL (Permaliens)** : Dans Réglages > Permaliens, basculer absolument sur "Titre de l'article" (/%postname%/) pour l'optimisation SEO (évite les URL du type ?p=123). Cela génère des URL propres bénéfiques pour le SEO.
+- **Structure des URL (Permaliens)** : Dans `Réglages > Permaliens`, basculer absolument sur "Titre de l'article" (`/%postname%/`) pour l'optimisation SEO (évite les URL du type `?p=123`). Cela génère des URL propres bénéfiques pour le SEO.
 
-- **Définition de la page d'accueil statique** : Par défaut, WordPress affiche le flux des derniers articles. Pour un site vitrine professionnel, il faut aller dans Réglages > Lecture et sélectionner une Page statique dédiée pour l'accueil.
+- **Définition de la page d'accueil statique** : Par défaut, WordPress affiche le flux des derniers articles. Pour un site vitrine professionnel, il faut aller dans `Réglages > Lecture` et sélectionner une Page statique dédiée pour l'accueil.
 
-- **Changer le slogan** : Dans Réglages > Général, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
+- **Changer le slogan** : Dans `Réglages > Général`, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
 
 ## 7. 🔒 Sécurité & Maintenance
 
@@ -76,7 +76,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Sauvegardes (Backups)** : Automatisez des sauvegardes régulières (fichiers + base de données) sur un cloud externe via des extensions dédiées (ex: UpdraftPlus).
 
-- **Protection des accès** : Utilisez des identifiants complexes (Ne jamais utiliser l'identifiant par défaut admin) et modifiez si possible l'URL de connexion par défaut (/wp-admin ou /wp-login.php par une URL secrète via une extension de sécurité) pour éviter les attaques par force brute.
+- **Protection des accès** : Utilisez des identifiants complexes (Ne jamais utiliser l'identifiant par défaut admin) et modifiez si possible l'URL de connexion par défaut (`/wp-admin` ou /`wp-login.php` par une URL secrète via une extension de sécurité) pour éviter les attaques par force brute.
 
 - **Limiter les tentatives de connexion** : pour bloquer les attaques par force brute.
 
