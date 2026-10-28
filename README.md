@@ -49,3 +49,11 @@ WordPress segmente nativement les publications en deux types :
 - **Apparence** : Gestion des thèmes, des menus de navigation et de l'Éditeur de site.
 - **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
 - **Réglages** : Configuration technique critique.
+
+## 5. 🛠️ L'Édition Moderne : Gutenberg & FSE
+
+- **L'Éditeur de Blocs (Gutenberg)** : Le système d'édition natif de WordPress. Chaque élément de contenu (paragraphe, titre, image, bouton) est un "bloc" autonome que l'on peut déplacer, styliser et réutiliser.
+
+- **Le FSE (Full Site Editing / Édition Totale du Site)** : Permet de modifier visuellement l'intégralité du site (y compris l'en-tête, le pied de page et les modèles de page) directement avec des blocs, sans toucher au code PHP ou CSS.
+
+- **Constructeurs tiers (Page Builders)** : Pour des besoins ultra-spécifiques ou complexes, des extensions comme Elementor, Divi Builder ou Bricks remplacent ou complètent l'éditeur natif.
