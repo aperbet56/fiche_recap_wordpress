@@ -62,7 +62,7 @@ WordPress segmente nativement les publications en deux types :
 
 Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
-- **Visibilité pour les moteurs de recherche** :Durant la phase de développement, l'option "Demander aux moteurs de recherche de ne pas indexer ce site" (Réglages > Lecture) doit être cochée. **Elle doit absolument être décochée au moment de la mise en production**.
+- **Visibilité pour les moteurs de recherche** : Durant la phase de développement, l'option "Demander aux moteurs de recherche de ne pas indexer ce site" (Réglages > Lecture) doit être cochée. **Elle doit absolument être décochée au moment de la mise en production**.
 
 - **Structure des URL (Permaliens)** : Dans Réglages > Permaliens, basculer absolument sur "Titre de l'article" (/%postname%/) pour l'optimisation SEO (évite les URL du type ?p=123). Cela génère des URL propres bénéfiques pour le SEO.
 
@@ -76,12 +76,12 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Sauvegardes (Backups)** : Automatisez des sauvegardes régulières (fichiers + base de données) sur un cloud externe via des extensions dédiées (ex: UpdraftPlus).
 
-- **Protection des accès** : Utilisez des identifiants complexes (Ne jamais utiliser l'identifiant par défaut admin) et modifiez si possible l'URL de connexion par défaut (/wp-admin ou /wp-login.php).
-
-- **Sécuriser le fichier `wp-config.php`** : en déplaçant ses droits d'accès ou en restreignant la lecture.
-
-- **Appliquer le principe du moindre privilège pour les rôles utilisateurs** : Administrateur, Éditeur, Auteur, Contributeur, Abonné.
+- **Protection des accès** : Utilisez des identifiants complexes (Ne jamais utiliser l'identifiant par défaut admin) et modifiez si possible l'URL de connexion par défaut (/wp-admin ou /wp-login.php par une URL secrète via une extension de sécurité) pour éviter les attaques par force brute.
 
 - **Limiter les tentatives de connexion** : pour bloquer les attaques par force brute.
 
-- **Maintenance** : Toujours réaliser une sauvegarde ( les fichiers + la base de données) avant de lancer les mises à jour majeures du cœur ou des plugins.
+- **Sécuriser le fichier `wp-config.php`** : en déplaçant ses droits d'accès ou en restreignant la lecture.
+
+- **Gestion des accès (Principe du moindre privilège)** : Ne jamais créer ou laisser d'utilisateur avec l'identifiant par défaut admin. Assigner précisément les rôles adéquats selon le besoin : Administrateur (droits totaux), Éditeur (gère tout le contenu), Auteur (publie ses propres articles), Contributeur (écrit mais ne peut pas publier seul), Abonné (profil simple).
+
+- **Maintenance** : Toujours réaliser une sauvegarde ( les fichiers + la base de données via un outil comme UpdraftPlus) avant de lancer les mises à jour majeures du cœur ou des plugins.
