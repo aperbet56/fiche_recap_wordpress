@@ -13,7 +13,7 @@ Ce guide regroupe les concepts essentiels, l'architecture et les commandes indis
   - _wordPress.com_ (la plateforme) : Service clé en main commercial. Plus simple mais bridé, payant dès que l'on veut personnaliser le site en profondeur.
 - **Articles (Posts) vs Pages** :
   - _Articles_ : Contenu chronologique, temporel, organisé par catégories et étiquettes (ex: blog, actualités).
-  - _Pages_ : Contenu statique, hiérarchique, indépendant du temps (ex: À propos, Contact).
+  - _Pages_ : Contenu statique, intemporel, hiérarchique, indépendant du temps (ex: À propos, Contact).
 - **La Boucle (The Loop)** : Le mécanisme PHP interne utilisé par WordPress pour afficher les articles ou le contenu d'une page.
 
 ## 2. 🏗️ L'Architecture : Les 3 Piliers de WordPress
