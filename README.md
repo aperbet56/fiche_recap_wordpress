@@ -38,7 +38,7 @@ WordPress segmente nativement les publications en deux types :
   - _Intègrent un espace de commentaires pour l'interaction._
 
 - **Les Pages (Structure statique)** :
-  - _Organisées de manière hiérarchique (ex: Page enfant Nos Valeurs sous la page parente À Propos) Classés par structure hiérarchique (Parents / Enfants)_
+  - _Organisées de manière hiérarchique (ex: Page enfant Nos Valeurs sous la page parente À Propos) Classées par structure hiérarchique (Parents / Enfants)_
   - _Pas de notion de date de publication mise en avant, pas de catégories._
   - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
 
@@ -62,13 +62,13 @@ WordPress segmente nativement les publications en deux types :
 
 Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
-- **Visibilité pour les moteurs de recherche** : Dans Réglages > Lecture, vérifier que la case "Demander aux moteurs de recherche de ne pas indexer ce site" est décochée en production.
+- **Visibilité pour les moteurs de recherche** :Durant la phase de développement, l'option "Demander aux moteurs de recherche de ne pas indexer ce site" (Réglages > Lecture) doit être cochée. **Elle doit absolument être décochée au moment de la mise en production**.
 
-- **Structure des URL (Permaliens)** : Dans Réglages > Permaliens, basculer absolument sur "Titre de l'article" (/%postname%/) pour l'optimisation SEO (évite les URL du type ?p=123).
+- **Structure des URL (Permaliens)** : Dans Réglages > Permaliens, basculer absolument sur "Titre de l'article" (/%postname%/) pour l'optimisation SEO (évite les URL du type ?p=123). Cela génère des URL propres bénéfiques pour le SEO.
 
-- **Page d'accueil statique** : Dans Réglages > Lecture, définir une Page précise comme page d'accueil au lieu du flux des derniers articles.
+- **Définition de la page d'accueil statique** : Par défaut, WordPress affiche le flux des derniers articles. Pour un site vitrine professionnel, il faut aller dans Réglages > Lecture et sélectionner une Page statique dédiée pour l'accueil.
 
-- **Changer le slogan** : Dans Réglages > Général, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress".
+- **Changer le slogan** : Dans Réglages > Général, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
 
 ## 7. 🔒 Sécurité & Maintenance
 
