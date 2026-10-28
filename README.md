@@ -23,3 +23,19 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 | **Le Contenu / Le Cœur**     | Stocke le texte, les options et l'arborescence dans une base de données MySQL. | Articles, pages, commentaires.                |
 | **Le Thème (Design)**        | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE).        | Astra, Hello Elementor, Divi, GeneratePress.  |
 | **Les Extensions (Plugins)** | Ajoutent des fonctionnalités techniques spécifiques au site.                   | WooCommerce (Boutique), Yoast/RankMath (SEO). |
+
+## 3. 📝 Gestion du Contenu : Articles vs Pages
+
+WordPress segmente nativement les publications en deux types :
+
+- **Les Articles (Flux dynamique)** :
+
+  - _Classés par ordre chronologique inverse._
+  - _Organisés par Catégories (obligatoires) et Étiquettes / Tags (optionnels)._
+  - _Idéaux pour les blogs, l'actualité, les portfolios ou les actualités._
+  - _Intègrent un espace de commentaires pour l'interaction._
+
+- **Les Pages (Structure statique)** :
+  - _Organisées de manière hiérarchique (ex: Page enfant Nos Valeurs sous la page parente À Propos)_
+  - _Pas de notion de date de publication mise en avant, pas de catégories._
+  - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
