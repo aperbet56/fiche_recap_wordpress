@@ -20,11 +20,11 @@ Ce guide regroupe les concepts essentiels, l'architecture et les commandes indis
 
 Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la forme et des fonctionnalités.
 
-| Conposant                    | Rôle Principal                                                                 | Exemples connus                               |
-| :--------------------------- | :----------------------------------------------------------------------------- | :-------------------------------------------- |
-| **Le Contenu / Le Cœur**     | Stocke le texte, les options et l'arborescence dans une base de données MySQL. | Articles, pages, commentaires.                |
-| **Le Thème (Design)**        | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE).        | Astra, Hello Elementor, Divi, GeneratePress.  |
-| **Les Extensions (Plugins)** | Ajoutent des fonctionnalités techniques spécifiques au site.                   | WooCommerce (Boutique), Yoast/RankMath (SEO). |
+| Conposant                                     | Rôle Principal                                                                                                  | Exemples connus                               |
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- |
+| **Le Contenu / Le Cœur & La Base de données** | Stocke le texte, les options et l'arborescence dans une base de données MySQL.                                  | Articles, pages, commentaires.                |
+| **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, Hello Elementor, Divi, GeneratePress.  |
+| **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO). |
 
 ## 3. 📝 Gestion du Contenu : Articles vs Pages
 
@@ -52,7 +52,7 @@ WordPress segmente nativement les publications en deux types :
 
 ## 5. 🛠️ L'Édition Moderne : Gutenberg & FSE
 
-- **L'Éditeur de Blocs (Gutenberg)** : Le système d'édition natif de WordPress. Chaque élément de contenu (paragraphe, titre, image, bouton) est un "bloc" autonome que l'on peut déplacer, styliser et réutiliser.
+- **L'Éditeur de Blocs (Gutenberg)** : Le système d'édition natif de WordPress. Chaque élément de contenu (paragraphe, titre, image, bouton) est un "bloc" autonome que l'on peut déplacer, styliser et réutiliser. Il génère du code HTML propre sans shortcodes lourds.
 
 - **Le FSE (Full Site Editing / Édition Totale du Site)** : Permet de modifier visuellement l'intégralité du site (y compris l'en-tête, le pied de page et les modèles de page) directement avec des blocs, sans toucher au code PHP ou CSS.
 
