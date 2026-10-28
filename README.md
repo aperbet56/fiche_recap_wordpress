@@ -76,4 +76,4 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Sauvegardes (Backups)** : Automatisez des sauvegardes régulières (fichiers + base de données) sur un cloud externe via des extensions dédiées (ex: UpdraftPlus).
 
-- **Protection des accès** : Utilisez des identifiants complexes (évitez absolument l'utilisateur "admin") et modifiez si possible l'URL de connexion par défaut (/wp-admin).
+- **Protection des accès** : Utilisez des identifiants complexes (Ne jamais utiliser l'identifiant par défaut admin) et modifiez si possible l'URL de connexion par défaut (/wp-admin ou /wp-login.php).
