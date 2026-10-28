@@ -57,3 +57,15 @@ WordPress segmente nativement les publications en deux types :
 - **Le FSE (Full Site Editing / Édition Totale du Site)** : Permet de modifier visuellement l'intégralité du site (y compris l'en-tête, le pied de page et les modèles de page) directement avec des blocs, sans toucher au code PHP ou CSS.
 
 - **Constructeurs tiers (Page Builders)** : Pour des besoins ultra-spécifiques ou complexes, des extensions comme Elementor, Divi Builder ou Bricks remplacent ou complètent l'éditeur natif.
+
+## 6. 🔧 Configuration Initiale & SEO
+
+Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
+
+- **Visibilité pour les moteurs de recherche** : Dans Réglages > Lecture, vérifier que la case "Demander aux moteurs de recherche de ne pas indexer ce site" est décochée en production.
+
+- **Structure des URL (Permaliens)** : Dans Réglages > Permaliens, basculer absolument sur "Titre de l'article" (/%postname%/) pour l'optimisation SEO (évite les URL du type ?p=123).
+
+- **Page d'accueil statique** : Dans Réglages > Lecture, définir une Page précise comme page d'accueil au lieu du flux des derniers articles.
+
+- **Changer le slogan** : Dans Réglages > Général, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress".
