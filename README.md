@@ -112,12 +112,20 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 ## 10. 💻 Commandes de Base avec WP-CLI
 
-L'outil en ligne de commande pour administrer WordPress rapidement.
+**WP-CLI** est l'outil indispensable pour administrer WordPress rapidement sans passer par l'interface graphique.
 
 - **Mises à jour :**
 
   - `wp core update` : Mettre à jour WordPress.
   - `wp plugin update --all` : Mettre à jour toutes les extensions.
+
+- **Télécharger les fichier WordPress :**
+
+- `wp core download` : Télécharge les fichiers WordPress.
+
+- **INstaller et activer une extension :**
+
+-`wp plugin install <nom> --activate` : Installe et active une extension.
 
 - **Base de données :**
 
@@ -125,7 +133,7 @@ L'outil en ligne de commande pour administrer WordPress rapidement.
   - `wp db import fichier.sql` : Importer une base de données.
 
 - **Administration :**
-  - `wp user create login email@test.com --role=administrator` : Créer un admin.
+  - `wp user create login email@test.com --role=administrator` : Créer un administrateur.
   - `wp search-replace 'http://ancien-site.com' 'https://nouveau-site.com'` : Remplacer les URLs proprement dans la base. Commandes de Base avec WP-CLI
 
 ## 11. 🔒 Sécurité Maintenance & Performances
