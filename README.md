@@ -157,7 +157,7 @@ L'outil en ligne de commande pour administrer WordPress rapidement.
 
 ## 12. ⚡ Extensions Incontournables (Essentiels)
 
-### 📈 SEO & Performance / Cache :
+### 📈 SEO & Performances / Cache :
 
 - **Yoast SEO** ou **Rank Math** : Optimisation du référencement naturel.
 - **WP Rocket** ou **LiteSpeed Cache** : Amélioration de la vitesse de chargement.
@@ -177,4 +177,4 @@ L'outil en ligne de commande pour administrer WordPress rapidement.
 
 ### ✍️ Formulaires
 
-- **Contact Form 7 ou WPForms**
+- **Contact Form 7** ou **WPForms**
