@@ -74,7 +74,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 ## 8. 🔒 Sécurité Maintenance et Performances
 
-# Sécurité :
+### Sécurité :
 
 - **Mises à jour** : Effectuez régulièrement les mises à jour du Cœur WordPress, des thèmes et des extensions pour combler les failles de sécurité.
 
@@ -88,11 +88,11 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Gestion des accès (Principe du moindre privilège)** : Ne jamais créer ou laisser d'utilisateur avec l'identifiant par défaut admin. Assigner précisément les rôles adéquats selon le besoin : Administrateur (droits totaux), Éditeur (gère tout le contenu), Auteur (publie ses propres articles), Contributeur (écrit mais ne peut pas publier seul), Abonné (profil simple).
 
-# Maintenance :
+### Maintenance :
 
 - **Maintenance** : Toujours réaliser une sauvegarde ( les fichiers + la base de données via un outil comme UpdraftPlus) avant de lancer les mises à jour majeures du cœur ou des plugins.
 
-# Performances :
+### Performances :
 
 - **Utiliser un système de mise en cache** : (ex: WP Rocket, LiteSpeed Cache).
 - **Optimiser les images** (compression et formats modernes comme le WebP).
