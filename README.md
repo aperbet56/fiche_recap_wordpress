@@ -2,7 +2,7 @@
 
 WordPress est un CMS (Content Management System) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
 
-**WordPress est le système de gestion de contenu (CMS) le plus populaire au monde**, propulsant plus de 40 % des sites web sur Internet.
+**WordPress est le système de gestion de contenu (CMS) le plus populaire au monde**, propulsant plus de 40 % des sites web sur Internet. Il permet de créer des sites vitrines, des blogs, des portfolios ou des boutiques en ligne sans nécessiter de compétences avancées en programmation.
 
 Ce guide regroupe les concepts essentiels, l'architecture et les commandes indispensables pour maîtriser l'outil.
 
@@ -11,7 +11,7 @@ Ce guide regroupe les concepts essentiels, l'architecture et les commandes indis
 - **WordPress.org vs WordPress.com** :
   - _wordPress.org_ (le CMS) : Gratuit, open-source et auto-hébergé. Vous achetez votre hébergement, possédez 100 % de vos données et installez ce que vous voulez. C'est la solution standard pour les professionnels.
   - _wordPress.com_ (la plateforme) : Service clé en main commercial. Plus simple mais bridé, payant dès que l'on veut personnaliser le site en profondeur.
-- **Articles (Posts) vs Pages** :
+- **Articles (Posts) vs Pages (Pages)** :
   - _Articles_ : Contenu chronologique, temporel, organisé par catégories et étiquettes (ex: blog, actualités).
   - _Pages_ : Contenu statique, intemporel, hiérarchique, indépendant du temps (ex: À propos, Contact).
 - **La Boucle (The Loop)** : Le mécanisme PHP interne utilisé par WordPress pour afficher les articles ou le contenu d'une page.
@@ -44,7 +44,7 @@ WordPress segmente nativement les publications en deux types :
 
 ## 4. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
 
-- **Tableau de bord** : Vue d'ensemble de l'activité du site et alertes de mises à jour.
+- **Tableau de bord** : Vue d'ensemble de l'activité du site et alertes de mises à jour. Votre espace de travail privé pour configurer le site et rédiger.
 - **Médias** : Bibliothèque centrale stockant vos images, vidéos, PDF et documents.
 - **Apparence** : Gestion des thèmes, des menus de navigation et de l'Éditeur de site.
 - **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
