@@ -128,18 +128,6 @@ L'outil en ligne de commande pour administrer WordPress rapidement.
   - `wp user create login email@test.com --role=administrator` : Créer un admin.
   - `wp search-replace 'http://ancien-site.com' 'https://nouveau-site.com'` : Remplacer les URLs proprement dans la base. Commandes de Base avec WP-CLI
 
-L'outil en ligne de commande pour administrer WordPress rapidement.
-
-- **Mises à jour :**
-  - `wp core update` : Mettre à jour WordPress.
-  - `wp plugin update --all` : Mettre à jour toutes les extensions.
-- **Base de données :**
-  - `wp db export` : Exporter la base de données en `.sql`.
-  - `wp db import fichier.sql` : Importer une base de données.
-- **Administration :**
-  - `wp user create login email@test.com --role=administrator` : Créer un admin.
-  - `wp search-replace 'http://ancien-site.com' 'https://nouveau-site.com'` : Remplacer les URLs proprement dans la base.
-
 ## 11. 🔒 Sécurité Maintenance & Performances
 
 ### Sécurité :
