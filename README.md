@@ -1,4 +1,4 @@
-## FICHE RECAPITULATIVE WORDPRESS
+## 📝 FICHE RECAPITULATIVE WORDPRESS
 
 ## 1. 🌐 Qu'est-ce que WordPress ?
 
@@ -28,7 +28,7 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 | **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, Hello Elementor, Divi, GeneratePress.  |
 | **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO). |
 
-## 4. 📝 Gestion du Contenu : Articles vs Pages
+## 4. 🗂️ Gestion du Contenu : Articles vs Pages
 
 WordPress segmente nativement les publications en deux types :
 
