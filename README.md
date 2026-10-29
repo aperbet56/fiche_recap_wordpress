@@ -144,6 +144,10 @@ L'outil en ligne de commande pour administrer WordPress rapidement.
 
 - **Gestion des accès (Principe du moindre privilège)** : Ne jamais créer ou laisser d'utilisateur avec l'identifiant par défaut admin. Assigner précisément les rôles adéquats selon le besoin : Administrateur (droits totaux), Éditeur (gère tout le contenu), Auteur (publie ses propres articles), Contributeur (écrit mais ne peut pas publier seul), Abonné (profil simple).
 
+- **Préfixe de BDD** : Modifier le préfixe par défaut `wp_` lors de l'installation (ex: `site43_`).
+
+- **Extensions de confiance** : Télécharger uniquement depuis le répertoire officiel ou des extensions réputées.
+
 ### Maintenance :
 
 - **Toujours réaliser une sauvegarde** ( les fichiers + la base de données via un outil comme UpdraftPlus) avant de lancer les mises à jour majeures du cœur ou des plugins.
