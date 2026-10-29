@@ -1,12 +1,14 @@
 ## FICHE RECAPITULATIVE WORDPRESS
 
+## 1. 🌐 Qu'est-ce que WordPress ?
+
 WordPress est un CMS (Content Management System) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
 
 **WordPress est le système de gestion de contenu (CMS) le plus populaire au monde**, propulsant plus de 40 % des sites web sur Internet. Il permet de créer des sites vitrines, des blogs, des portfolios ou des boutiques en ligne sans nécessiter de compétences avancées en programmation.
 
 Ce guide regroupe les concepts essentiels, l'architecture et les commandes indispensables pour maîtriser l'outil.
 
-## 1. ⚠️ Les distinctions capitales
+## 2. ⚠️ Les distinctions capitales
 
 - **WordPress.org vs WordPress.com** :
   - _wordPress.org_ (le CMS) : Gratuit, open-source et auto-hébergé. Vous achetez votre hébergement, possédez 100 % de vos données et installez ce que vous voulez. C'est la solution standard pour les professionnels.
@@ -16,7 +18,7 @@ Ce guide regroupe les concepts essentiels, l'architecture et les commandes indis
   - _Pages_ : Contenu statique, intemporel, hiérarchique, indépendant du temps (ex: À propos, Contact).
 - **La Boucle (The Loop)** : Le mécanisme PHP interne utilisé par WordPress pour afficher les articles ou le contenu d'une page.
 
-## 2. 🏗️ L'Architecture : Les 3 Piliers de WordPress
+## 3. 🏗️ L'Architecture : Les 3 Piliers de WordPress
 
 Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la forme et des fonctionnalités.
 
@@ -26,7 +28,7 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 | **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, Hello Elementor, Divi, GeneratePress.  |
 | **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO). |
 
-## 3. 📝 Gestion du Contenu : Articles vs Pages
+## 4. 📝 Gestion du Contenu : Articles vs Pages
 
 WordPress segmente nativement les publications en deux types :
 
@@ -42,7 +44,7 @@ WordPress segmente nativement les publications en deux types :
   - _Pas de notion de date de publication mise en avant, pas de catégories._
   - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
 
-## 4. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
+## 5. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
 
 - **Tableau de bord** : Vue d'ensemble de l'activité du site et alertes de mises à jour. Votre espace de travail privé pour configurer le site et rédiger.
 - **Médias** : Bibliothèque centrale stockant vos images, vidéos, PDF et documents.
@@ -50,7 +52,7 @@ WordPress segmente nativement les publications en deux types :
 - **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
 - **Réglages** : Configuration technique critique.
 
-## 5. 🛠️ L'Édition Moderne : Gutenberg & FSE
+## 6. 🛠️ L'Édition Moderne : Gutenberg & FSE
 
 - **L'Éditeur de Blocs (Gutenberg)** : Le système d'édition natif de WordPress. Chaque élément de contenu (paragraphe, titre, image, bouton) est un "bloc" autonome que l'on peut déplacer, styliser et réutiliser. Il génère du code HTML propre sans shortcodes lourds.
 
@@ -58,7 +60,7 @@ WordPress segmente nativement les publications en deux types :
 
 - **Constructeurs tiers (Page Builders)** : Pour des besoins ultra-spécifiques ou complexes, des extensions comme Elementor, Divi Builder ou Bricks remplacent ou complètent l'éditeur natif.
 
-## 6. 🔧 Configuration Initiale & SEO
+## 7. 🔧 Configuration Initiale & SEO
 
 Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
@@ -70,7 +72,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Changer le slogan** : Dans `Réglages > Général`, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
 
-## 7. 🔒 Sécurité & Maintenance
+## 8. 🔒 Sécurité & Maintenance
 
 - **Mises à jour** : Effectuez régulièrement les mises à jour du Cœur WordPress, des thèmes et des extensions pour combler les failles de sécurité.
 
