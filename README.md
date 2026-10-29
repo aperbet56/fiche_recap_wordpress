@@ -60,11 +60,12 @@ Gère les redirections, la sécurité et la structure des permaliens (URLs propr
 
 ## 5. 🏗️ L'Architecture de WordPress
 
-WordPress repose sur le triptyque technologique suivant :
+WordPress repose sur les technologies suivantes :
 
 - **PHP :** Le langage de programmation côté serveur qui gère la logique du site.
 - **MySQL / MariaDB :** La base de données qui stocke le contenu (articles, pages, utilisateurs, réglages).
 - **HTML / CSS / JavaScript :** Les langages du côté client pour l'affichage et l'interactivité.
+- **Serveur Web** : Fonctionne généralement sous Apache ou Nginx.
 
 ### Les 3 Piliers du fonctionnement :
 
@@ -129,12 +130,15 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
   - `wp core update` : Mettre à jour WordPress.
   - `wp plugin update --all` : Mettre à jour toutes les extensions.
 
-- **Télécharger les fichier WordPress :**
+- **Télécharger les fichiers WordPress :**
 
   - `wp core download` : Télécharge les fichiers WordPress.
 
 - **Installer et activer une extension :**
 
+  - `wp plugin list` : Liste les extensions installées.
+  - `wp plugin install <nom>` : Installe une extension.
+  - `wp plugin activate <nom>` : Active une extension.
   - `wp plugin install <nom> --activate` : Installe et active une extension.
 
 - **Base de données :**
@@ -151,7 +155,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 ### Sécurité :
 
-- **Mises à jour** : Effectuez régulièrement les mises à jour du Cœur WordPress, des thèmes et des extensions pour combler les failles de sécurité.
+- **Mises à jour régulières** : Effectuez régulièrement les mises à jour du Cœur WordPress, des thèmes et des extensions pour combler les failles de sécurité.
 
 - **Sauvegardes (Backups)** : Automatisez des sauvegardes régulières (fichiers + base de données) sur un cloud externe via des extensions dédiées (ex: UpdraftPlus).
 
