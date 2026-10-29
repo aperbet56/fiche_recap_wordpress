@@ -110,7 +110,37 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Changer le slogan** : Dans `Réglages > Général`, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
 
-## 10. 🔒 Sécurité Maintenance & Performances
+## 10. 💻 Commandes de Base avec WP-CLI
+
+L'outil en ligne de commande pour administrer WordPress rapidement.
+
+- **Mises à jour :**
+
+  - `wp core update` : Mettre à jour WordPress.
+  - `wp plugin update --all` : Mettre à jour toutes les extensions.
+
+- **Base de données :**
+
+  - `wp db export` : Exporter la base de données en `.sql`.
+  - `wp db import fichier.sql` : Importer une base de données.
+
+- **Administration :**
+  - `wp user create login email@test.com --role=administrator` : Créer un admin.
+  - `wp search-replace 'http://ancien-site.com' 'https://nouveau-site.com'` : Remplacer les URLs proprement dans la base. Commandes de Base avec WP-CLI
+
+L'outil en ligne de commande pour administrer WordPress rapidement.
+
+- **Mises à jour :**
+  - `wp core update` : Mettre à jour WordPress.
+  - `wp plugin update --all` : Mettre à jour toutes les extensions.
+- **Base de données :**
+  - `wp db export` : Exporter la base de données en `.sql`.
+  - `wp db import fichier.sql` : Importer une base de données.
+- **Administration :**
+  - `wp user create login email@test.com --role=administrator` : Créer un admin.
+  - `wp search-replace 'http://ancien-site.com' 'https://nouveau-site.com'` : Remplacer les URLs proprement dans la base.
+
+## 11. 🔒 Sécurité Maintenance & Performances
 
 ### Sécurité :
 
@@ -128,7 +158,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 ### Maintenance :
 
-- **Maintenance** : Toujours réaliser une sauvegarde ( les fichiers + la base de données via un outil comme UpdraftPlus) avant de lancer les mises à jour majeures du cœur ou des plugins.
+- **Toujours réaliser une sauvegarde** ( les fichiers + la base de données via un outil comme UpdraftPlus) avant de lancer les mises à jour majeures du cœur ou des plugins.
 
 ### Performances :
 
@@ -137,7 +167,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 - **Utiliser un réseau de diffusion de contenu** : (ex : CDN).
 - **Choisir un hébergement de qualité adapté au trafic.**
 
-## 11. ⚡ Extensions Incontournables (Essentiels)
+## 12. ⚡ Extensions Incontournables (Essentiels)
 
 ### 📈 SEO & Performance / Cache :
 
