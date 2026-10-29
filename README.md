@@ -98,3 +98,27 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 - **Optimiser les images** (compression et formats modernes comme le WebP).
 - **Utiliser un réseau de diffusion de contenu** : (ex : CDN).
 - **Choisir un hébergement de qualité adapté au trafic.**
+
+## ⚡ Extensions Incontournables (Essentiels)
+
+### 📈 SEO & Performance / Cache :
+
+- **Yoast SEO** ou **Rank Math** : Optimisation du référencement naturel.
+- **WP Rocket** ou **LiteSpeed Cache** : Amélioration de la vitesse de chargement.
+
+### 🛡️ Sécurité & Sauvegarde :
+
+- **Wordfence Security** : Pare-feu et scanneur de malware.
+- **UpdraftPlus** : Sauvegardes automatisées vers le cloud (Drive, Dropbox).
+
+### 🎨 Construction de page (Page Builders) :
+
+- **Elementor** ou **Divi** : Création visuelle en glisser-déposer (en complément de l'éditeur natif **Gutenberg**).
+
+### 🛒 E-commerce :
+
+- **WooCommerce** : l'extension standard pour transformer le site en boutique.
+
+### ✍️ Formulaires
+
+- **Contact Form 7 ou WPForms**
