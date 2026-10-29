@@ -52,6 +52,10 @@ define( 'WP_DEBUG_LOG', true ); // Écrit les erreurs dans wp-content/debug.log
 define( 'WP_DEBUG_DISPLAY', false ); // Masque les erreurs à l'écran
 ```
 
+### `.htaccess` (Serveurs Apache)
+
+Gère les redirections, la sécurité et la structure des permaliens (URLs propres).
+
 ## 5. 🏗️ L'Architecture : Les 3 Piliers de WordPress
 
 Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la forme et des fonctionnalités.
@@ -106,7 +110,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Changer le slogan** : Dans `Réglages > Général`, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
 
-## 10. 🔒 Sécurité Maintenance et Performances
+## 10. 🔒 Sécurité Maintenance & Performances
 
 ### Sécurité :
 
