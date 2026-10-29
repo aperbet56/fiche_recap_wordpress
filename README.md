@@ -137,11 +137,3 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 ### ✍️ Formulaires
 
 - **Contact Form 7 ou WPForms**
-
-```
-
-```
-
-```
-
-```
