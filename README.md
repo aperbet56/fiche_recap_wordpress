@@ -153,7 +153,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 ## 11. 🔒 Sécurité Maintenance & Performances
 
-### Sécurité :
+### 🛡️ Sécurité :
 
 - **Mises à jour régulières** : Effectuez régulièrement les mises à jour du Cœur WordPress, des thèmes et des extensions pour combler les failles de sécurité.
 
@@ -175,11 +175,11 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Thèmes Enfants (Child Themes) :** Toujours créer un thème enfant pour personnaliser le code d'un thème existant sans perdre les modifications lors des mises à jour.
 
-### Maintenance :
+### 🧰 Maintenance :
 
 - **Toujours réaliser une sauvegarde** ( les fichiers + la base de données via un outil comme UpdraftPlus) avant de lancer les mises à jour majeures du cœur ou des plugins.
 
-### Performances :
+### 🚀 Performances :
 
 - **Utiliser un système de mise en cache** : (ex: WP Rocket, LiteSpeed Cache).
 - **Optimiser les images** (compression et formats modernes comme le WebP).
@@ -210,7 +210,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Contact Form 7** ou **WPForms**
 
-## 13. 🚀 Avantages et Inconvénients
+## 13. 🎯 Avantages et Inconvénients
 
 ### 👍 Les Points Forts
 
