@@ -18,7 +18,22 @@ Ce guide regroupe les concepts essentiels, l'architecture et les commandes indis
   - _Pages_ : Contenu statique, intemporel, hiérarchique, indépendant du temps (ex: À propos, Contact).
 - **La Boucle (The Loop)** : Le mécanisme PHP interne utilisé par WordPress pour afficher les articles ou le contenu d'une page.
 
-## 3. 🏗️ L'Architecture : Les 3 Piliers de WordPress
+## 3. 📂 Structure des Fichiers (Arborescence standard)
+
+```text
+wordpress/
+├── wp-admin/               # Fichiers de l'administration
+├── wp-includes/            # Librairies et fonctions de base de WordPress
+├── wp-content/             # DOSSIER PRINCIPAL POUR LES DÉVELOPPEURS
+│   ├── themes/             # Vos thèmes installés
+│   ├── plugins/            # Vos extensions installées
+│   └── uploads/            # Médias téléversés (images, PDF...)
+├── wp-config.php           # Fichier de configuration (Base de données, clés de sécurité)
+├── .htaccess               # Fichier de configuration Apache (Permaliens, redirections)
+└── index.php               # Point d'entrée du site
+```
+
+## 4. 🏗️ L'Architecture : Les 3 Piliers de WordPress
 
 Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la forme et des fonctionnalités.
 
@@ -28,7 +43,7 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 | **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, Hello Elementor, Divi, GeneratePress.  |
 | **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO). |
 
-## 4. 🗂️ Gestion du Contenu : Articles vs Pages
+## 5. 🗂️ Gestion du Contenu : Articles vs Pages
 
 WordPress segmente nativement les publications en deux types :
 
@@ -44,7 +59,7 @@ WordPress segmente nativement les publications en deux types :
   - _Pas de notion de date de publication mise en avant, pas de catégories._
   - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
 
-## 5. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
+## 6. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
 
 - **Tableau de bord** : Vue d'ensemble de l'activité du site et alertes de mises à jour. Votre espace de travail privé pour configurer le site et rédiger.
 - **Médias** : Bibliothèque centrale stockant vos images, vidéos, PDF et documents.
@@ -52,7 +67,7 @@ WordPress segmente nativement les publications en deux types :
 - **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
 - **Réglages** : Configuration technique critique.
 
-## 6. 🛠️ L'Édition Moderne : Gutenberg & FSE
+## 7. 🛠️ L'Édition Moderne : Gutenberg & FSE
 
 - **L'Éditeur de Blocs (Gutenberg)** : Le système d'édition natif de WordPress. Chaque élément de contenu (paragraphe, titre, image, bouton) est un "bloc" autonome que l'on peut déplacer, styliser et réutiliser. Il génère du code HTML propre sans shortcodes lourds.
 
@@ -60,7 +75,7 @@ WordPress segmente nativement les publications en deux types :
 
 - **Constructeurs tiers (Page Builders)** : Pour des besoins ultra-spécifiques ou complexes, des extensions comme Elementor, Divi Builder ou Bricks remplacent ou complètent l'éditeur natif.
 
-## 7. 🔧 Configuration Initiale & SEO
+## 8. 🔧 Configuration Initiale & SEO
 
 Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
@@ -72,7 +87,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Changer le slogan** : Dans `Réglages > Général`, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
 
-## 8. 🔒 Sécurité Maintenance et Performances
+## 9. 🔒 Sécurité Maintenance et Performances
 
 ### Sécurité :
 
@@ -99,7 +114,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 - **Utiliser un réseau de diffusion de contenu** : (ex : CDN).
 - **Choisir un hébergement de qualité adapté au trafic.**
 
-## ⚡ Extensions Incontournables (Essentiels)
+## 10. ⚡ Extensions Incontournables (Essentiels)
 
 ### 📈 SEO & Performance / Cache :
 
@@ -122,3 +137,11 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 ### ✍️ Formulaires
 
 - **Contact Form 7 ou WPForms**
+
+```
+
+```
+
+```
+
+```
