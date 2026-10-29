@@ -181,9 +181,15 @@ L'outil en ligne de commande pour administrer WordPress rapidement.
 
 ## 13. 🚀 Avantages et Inconvénients
 
-### Les Points Forts 👍
+### 👍 Les Points Forts
 
 - **Gratuit et Open-Source** : Communauté gigantesque et évolution constante.
 - **Flexibilité absolue** : Permet de créer absolument tout type de site.
 - **Excellent pour le SEO** : Structure nativement appréciée par les moteurs de recherche.
 - **Propriété des données** : Avec la version .org, le site vous appartient à 100 %.
+
+### 👎 Les Points Faibles
+
+- **Maintenance requise** : Les mises à jour régulières sont indispensables pour éviter les bugs.
+- **Vulnérabilité** : Étant le plus utilisé, c'est la cible principale des pirates (nécessite une bonne sécurisation).
+- **Performances** : Un abus de plugins ou un thème mal codé peut gravement ralentir le site.
