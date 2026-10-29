@@ -31,7 +31,7 @@ wordpress/
 │   ├── plugins/            # Vos extensions installées
 │   └── uploads/            # Médias téléversés (images, PDF...)
 ├── wp-config.php           # Fichier de configuration (Base de données, clés de sécurité)
-├── .htaccess               # Fichier de configuration Apache (Permaliens, redirections)
+├── .htaccess               # Fichier de configuration du serveur Apache (Permaliens, redirections)
 └── index.php               # Point d'entrée du site
 ```
 
@@ -58,7 +58,15 @@ define( 'WP_DEBUG_DISPLAY', false ); // Masque les erreurs à l'écran
 
 Gère les redirections, la sécurité et la structure des permaliens (URLs propres).
 
-## 5. 🏗️ L'Architecture : Les 3 Piliers de WordPress
+## 5. 🏗️ L'Architecture de WordPress
+
+WordPress repose sur le triptyque technologique suivant :
+
+- **PHP :** Le langage de programmation côté serveur qui gère la logique du site.
+- **MySQL / MariaDB :** La base de données qui stocke le contenu (articles, pages, utilisateurs, réglages).
+- **HTML / CSS / JavaScript :** Les langages du côté client pour l'affichage et l'interactivité.
+
+### Les 3 Piliers du fonctionnement :
 
 Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la forme et des fonctionnalités.
 
