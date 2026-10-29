@@ -178,3 +178,12 @@ L'outil en ligne de commande pour administrer WordPress rapidement.
 ### ✍️ Formulaires
 
 - **Contact Form 7** ou **WPForms**
+
+## 13. 🚀 Avantages et Inconvénients
+
+### Les Points Forts 👍
+
+- **Gratuit et Open-Source** : Communauté gigantesque et évolution constante.
+- **Flexibilité absolue** : Permet de créer absolument tout type de site.
+- **Excellent pour le SEO** : Structure nativement appréciée par les moteurs de recherche.
+- **Propriété des données** : Avec la version .org, le site vous appartient à 100 %.
