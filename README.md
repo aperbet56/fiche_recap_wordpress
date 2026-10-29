@@ -1,10 +1,12 @@
 ## 📝 FICHE RECAPITULATIVE : TOUT COMPRENDRE SUR WORDPRESS
 
+Bienvenue dans cette fiche mémo sur **WordPress**, le système de gestion de contenu (CMS) le plus populaire au monde, propulsant plus de 40 % des sites web sur Internet.
+
 ## 1. 🌐 Qu'est-ce que WordPress ?
 
 WordPress est un CMS (Content Management System) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
 
-**WordPress est le système de gestion de contenu (CMS) le plus populaire au monde**, propulsant plus de 40 % des sites web sur Internet. Il permet de créer des sites vitrines, des blogs, des portfolios ou des boutiques en ligne sans nécessiter de compétences avancées en programmation.
+Il permet de créer des sites vitrines, des blogs, des portfolios ou des boutiques en ligne sans nécessiter de compétences avancées en programmation.
 
 Ce guide regroupe les concepts essentiels, l'architecture et les commandes indispensables pour maîtriser l'outil.
 
