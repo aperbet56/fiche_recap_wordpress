@@ -121,11 +121,11 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Télécharger les fichier WordPress :**
 
-- `wp core download` : Télécharge les fichiers WordPress.
+  - `wp core download` : Télécharge les fichiers WordPress.
 
-- **INstaller et activer une extension :**
+- **Installer et activer une extension :**
 
--`wp plugin install <nom> --activate` : Installe et active une extension.
+  - `wp plugin install <nom> --activate` : Installe et active une extension.
 
 - **Base de données :**
 
