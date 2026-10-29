@@ -33,7 +33,26 @@ wordpress/
 └── index.php               # Point d'entrée du site
 ```
 
-## 4. 🏗️ L'Architecture : Les 3 Piliers de WordPress
+## 4. 📁 Fichiers de Configuration Critiques
+
+### `wp-config.php`
+
+Ce fichier situé à la racine contient les accès à la base de données et les options de débogage.
+
+```php
+// ** Réglages MySQL ** //
+define( 'DB_NAME', 'nom_de_la_base' );
+define( 'DB_USER', 'utilisateur' );
+define( 'DB_PASSWORD', 'mot_de_passe' );
+define( 'DB_HOST', 'localhost' );
+
+// ** Mode Débogage (À activer en développement, désactiver en production) ** //
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true ); // Écrit les erreurs dans wp-content/debug.log
+define( 'WP_DEBUG_DISPLAY', false ); // Masque les erreurs à l'écran
+```
+
+## 5. 🏗️ L'Architecture : Les 3 Piliers de WordPress
 
 Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la forme et des fonctionnalités.
 
@@ -43,7 +62,7 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 | **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, Hello Elementor, Divi, GeneratePress.  |
 | **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO). |
 
-## 5. 🗂️ Gestion du Contenu : Articles vs Pages
+## 6. 🗂️ Gestion du Contenu : Articles vs Pages
 
 WordPress segmente nativement les publications en deux types :
 
@@ -59,7 +78,7 @@ WordPress segmente nativement les publications en deux types :
   - _Pas de notion de date de publication mise en avant, pas de catégories._
   - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
 
-## 6. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
+## 7. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
 
 - **Tableau de bord** : Vue d'ensemble de l'activité du site et alertes de mises à jour. Votre espace de travail privé pour configurer le site et rédiger.
 - **Médias** : Bibliothèque centrale stockant vos images, vidéos, PDF et documents.
@@ -67,7 +86,7 @@ WordPress segmente nativement les publications en deux types :
 - **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
 - **Réglages** : Configuration technique critique.
 
-## 7. 🛠️ L'Édition Moderne : Gutenberg & FSE
+## 8. 🛠️ L'Édition Moderne : Gutenberg & FSE
 
 - **L'Éditeur de Blocs (Gutenberg)** : Le système d'édition natif de WordPress. Chaque élément de contenu (paragraphe, titre, image, bouton) est un "bloc" autonome que l'on peut déplacer, styliser et réutiliser. Il génère du code HTML propre sans shortcodes lourds.
 
@@ -75,7 +94,7 @@ WordPress segmente nativement les publications en deux types :
 
 - **Constructeurs tiers (Page Builders)** : Pour des besoins ultra-spécifiques ou complexes, des extensions comme Elementor, Divi Builder ou Bricks remplacent ou complètent l'éditeur natif.
 
-## 8. 🔧 Configuration Initiale & SEO
+## 9. 🔧 Configuration Initiale & SEO
 
 Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
@@ -87,7 +106,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Changer le slogan** : Dans `Réglages > Général`, modifier ou supprimer le slogan par défaut "Un site utilisant WordPress" afin de soigner le référencement de la page d'accueil.
 
-## 9. 🔒 Sécurité Maintenance et Performances
+## 10. 🔒 Sécurité Maintenance et Performances
 
 ### Sécurité :
 
@@ -114,7 +133,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 - **Utiliser un réseau de diffusion de contenu** : (ex : CDN).
 - **Choisir un hébergement de qualité adapté au trafic.**
 
-## 10. ⚡ Extensions Incontournables (Essentiels)
+## 11. ⚡ Extensions Incontournables (Essentiels)
 
 ### 📈 SEO & Performance / Cache :
 
