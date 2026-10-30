@@ -4,7 +4,7 @@ Bienvenue dans cette fiche mémo sur **WordPress**, le système de gestion de co
 
 ## 1. 🌐 Qu'est-ce que WordPress ?
 
-WordPress est un CMS (Content Management System) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
+WordPress est un CMS (Content Management System : un CMS est un outil qui va offrir une interface pour créér et gérer les contenus de votre site web internet plutôt que de le coder à la main) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
 
 Il permet de créer des sites vitrines, des blogs, des portfolios ou des boutiques en ligne sans nécessiter de compétences avancées en programmation.
 
