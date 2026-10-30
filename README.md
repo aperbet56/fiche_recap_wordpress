@@ -6,7 +6,7 @@ Bienvenue dans cette fiche mémo sur **WordPress**, le système de gestion de co
 
 WordPress est un CMS (Content Management System : un CMS est un outil qui va offrir une interface pour créer et gérer les contenus de votre site web internet plutôt que de le coder à la main) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
 
-Il permet de créer des sites vitrines, des blogs, des portfolios ou des boutiques en ligne sans nécessiter de compétences avancées en programmation.
+Initialement conçu pour les blogs, WordPress permet aujourd'hui de créer tous les sites, du site vitrine au site e-commerce en passant par les applications web et mobiles sans nécessiter de compétences avancées en programmation.
 
 Ce guide regroupe les concepts essentiels, l'architecture et les commandes indispensables pour maîtriser l'outil.
 
