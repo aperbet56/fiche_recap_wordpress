@@ -4,7 +4,7 @@ Bienvenue dans cette fiche mémo sur **WordPress**, le système de gestion de co
 
 ## 1. 🌐 Qu'est-ce que WordPress ?
 
-WordPress est un CMS (Content Management System : un CMS est un outil qui va offrir une interface pour créér et gérer les contenus de votre site web internet plutôt que de le coder à la main) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
+WordPress est un CMS (Content Management System : un CMS est un outil qui va offrir une interface pour créer et gérer les contenus de votre site web internet plutôt que de le coder à la main) open-source écrit en PHP et adossé à une base de données MySQL ou MariaDB.
 
 Il permet de créer des sites vitrines, des blogs, des portfolios ou des boutiques en ligne sans nécessiter de compétences avancées en programmation.
 
@@ -100,9 +100,14 @@ WordPress segmente nativement les publications en deux types :
 ## 7. ⚙️ Le Tableau de Bord : Les Menus Clés
 
 - **Tableau de bord (dashbord)** : Vue d'ensemble de l'activité du site et alertes de mises à jour. Votre espace de travail privé pour configurer le site et rédiger.
+- **Articles** : Créer, éditer, publier des articles.
 - **Médias** : Bibliothèque centrale stockant vos images, vidéos, PDF et documents.
+- **Pages** : Créer, éditer, publier des pages.
+- **Commentaires** : Gérer les commentaires des visiteurs, les approuver, les supprimer, les modérer.
 - **Apparence** : Gestion des thèmes, des menus de navigation et de l'Éditeur de site.
 - **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
+- **Compte** : Gérer les utilisateurs de votre site, leur attribuer des rôles (administrateur, auteur, éditeur...).
+- **Outils** : Diverses fonctionnalités comme l'importation et l'exportation de données de votre site.
 - **Réglages** : Configuration des paramètres de base de votre site : les permaliens, les réglages de lecture et d'écriture, les commentaires, la confidentialité...
 
 ## 8. 🛠️ L'Édition Moderne : Gutenberg & FSE
