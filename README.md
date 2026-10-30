@@ -13,11 +13,15 @@ Ce guide regroupe les concepts essentiels, l'architecture et les commandes indis
 ## 2. ⚠️ Les distinctions capitales
 
 - **WordPress.org vs WordPress.com** :
+
   - _wordPress.org_ (le CMS) : Gratuit, open-source et auto-hébergé. Vous achetez votre hébergement, possédez 100 % de vos données et installez ce que vous voulez. C'est la solution standard pour les professionnels.
   - _wordPress.com_ (la plateforme) : Service clé en main commercial. Plus simple mais bridé, payant dès que l'on veut personnaliser le site en profondeur.
+
 - **Articles (Posts) vs Pages (Pages)** :
+
   - _Articles_ : Contenu chronologique, temporel, organisé par catégories et étiquettes (ex: blog, actualités).
   - _Pages_ : Contenu statique, intemporel, hiérarchique, indépendant du temps (ex: À propos, Contact).
+
 - **La Boucle (The Loop)** : Le mécanisme PHP interne utilisé par WordPress pour afficher les articles ou le contenu d'une page.
 
 ## 3. 📂 Structure des Fichiers (Arborescence standard)
@@ -93,13 +97,13 @@ WordPress segmente nativement les publications en deux types :
   - _Pas de notion de date de publication mise en avant, pas de catégories._
   - _Destinées aux contenus permanents (ex: Accueil, Contact, Mentions Légales)._
 
-## 7. ⚙️ Le Tableau de Bord (Back-Office) : Les Menus Clés
+## 7. ⚙️ Le Tableau de Bord : Les Menus Clés
 
-- **Tableau de bord** : Vue d'ensemble de l'activité du site et alertes de mises à jour. Votre espace de travail privé pour configurer le site et rédiger.
+- **Tableau de bord (dashbord)** : Vue d'ensemble de l'activité du site et alertes de mises à jour. Votre espace de travail privé pour configurer le site et rédiger.
 - **Médias** : Bibliothèque centrale stockant vos images, vidéos, PDF et documents.
 - **Apparence** : Gestion des thèmes, des menus de navigation et de l'Éditeur de site.
 - **Extensions** : Interface pour rechercher, installer, activer ou supprimer des fonctionnalités.
-- **Réglages** : Configuration technique critique.
+- **Réglages** : Configuration des paramètres de base de votre site : les permaliens, les réglages de lecture et d'écriture, les commentaires, la confidentialité...
 
 ## 8. 🛠️ L'Édition Moderne : Gutenberg & FSE
 
