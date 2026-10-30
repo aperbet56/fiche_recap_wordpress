@@ -75,11 +75,11 @@ WordPress repose sur les technologies suivantes :
 
 Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la forme et des fonctionnalités.
 
-| Conposant                                     | Rôle Principal                                                                                                  | Exemples connus                               |
-| :-------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- |
-| **Le Contenu / Le Cœur & La Base de données** | Stocke le texte, les options et l'arborescence dans une base de données MySQL.                                  | Articles, pages, commentaires.                |
-| **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, Hello Elementor, Divi, GeneratePress.  |
-| **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO). |
+| Conposant                                     | Rôle Principal                                                                                                  | Exemples connus                                       |
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------- |
+| **Le Contenu / Le Cœur & La Base de données** | Stocke le texte, les options et l'arborescence dans une base de données MySQL.                                  | Articles, pages, commentaires.                        |
+| **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, OceanWP, Hello Elementor, Divi, GeneratePress. |
+| **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO).         |
 
 ## 6. 🗂️ Gestion du Contenu : Articles vs Pages
 
