@@ -110,6 +110,8 @@ WordPress segmente nativement les publications en deux types :
 - **Outils** : Diverses fonctionnalités comme l'importation et l'exportation de données de votre site.
 - **Réglages** : Configuration des paramètres de base de votre site : les permaliens, les réglages de lecture et d'écriture, les commentaires, la confidentialité...
 
+⚠️ Par défaut, la page d'accueil de votre site est configurée en mode "blog" c'est-à dire qu'elle liste les contenus de type "articles".
+
 ## 8. 🛠️ L'Édition Moderne : Gutenberg & FSE
 
 - **L'Éditeur de Blocs (Gutenberg)** : Le système d'édition natif de WordPress. Chaque élément de contenu (paragraphe, titre, image, bouton) est un "bloc" autonome que l'on peut déplacer, styliser et réutiliser. Il génère du code HTML propre sans shortcodes lourds.
