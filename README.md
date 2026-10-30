@@ -202,7 +202,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 ### 📈 SEO & Performances / Cache :
 
 - **Yoast SEO** ou **SEO Press** ou **Rank Math** : Optimisation du référencement naturel.
-- **WP Rocket** ou **LiteSpeed Cache** : Amélioration de la vitesse de chargement.
+- **WP Rocket** ou **WP Super Cache** ou **LiteSpeed Cache** : Amélioration de la vitesse de chargement.
 
 ### 🛡️ Sécurité & Sauvegarde :
 
@@ -211,26 +211,26 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 ### 🎨 Construction de page (Page Builders) :
 
-- **Elementor** ou **Divi** : Création visuelle en glisser-déposer (en complément de l'éditeur natif **Gutenberg**).
+- **Elementor** ou **Divi Builder** : Création visuelle en glisser-déposer (en complément de l'éditeur natif **Gutenberg**).
 
 ### 🛒 E-commerce :
 
 - **WooCommerce** : l'extension standard pour transformer le site en boutique.
 
-### ✍️ Formulaires
+### ✍️ Formulaires :
 
 - **Contact Form 7** ou **WPForms**
 
 ## 13. 🎯 Avantages et Inconvénients
 
-### 👍 Les Points Forts
+### 👍 Les Points Forts :
 
 - **Gratuit et Open-Source** : Communauté gigantesque et évolution constante.
 - **Flexibilité absolue** : Permet de créer absolument tout type de site.
 - **Excellent pour le SEO** : Structure nativement appréciée par les moteurs de recherche.
 - **Propriété des données** : Avec la version .org, le site vous appartient à 100 %.
 
-### 👎 Les Points Faibles
+### 👎 Les Points Faibles :
 
 - **Maintenance requise** : Les mises à jour régulières sont indispensables pour éviter les bugs.
 - **Vulnérabilité** : Étant le plus utilisé, c'est la cible principale des pirates (nécessite une bonne sécurisation).
