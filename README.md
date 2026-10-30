@@ -201,7 +201,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 ### 📈 SEO & Performances / Cache :
 
-- **Yoast SEO** ou **Rank Math** : Optimisation du référencement naturel.
+- **Yoast SEO** ou **SEO Press** ou **Rank Math** : Optimisation du référencement naturel.
 - **WP Rocket** ou **LiteSpeed Cache** : Amélioration de la vitesse de chargement.
 
 ### 🛡️ Sécurité & Sauvegarde :
