@@ -93,6 +93,12 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 - Gèrent l'apparence et la mise en page du site.
 - Fichiers indispensables pour créer un thème : `style.css` (contient les métadonnées) et `index.php`.
 
+### Extensions (Les Fonctionnalités)
+
+- Situées dans `wp-content/plugins/`.
+- Ajoutent des fonctionnalités (SEO, e-commerce, formulaires, sécurité).
+- Doivent être activées depuis le tableau de bord pour fonctionner.
+
 ## 6. 🗂️ Gestion du Contenu : Articles vs Pages
 
 WordPress segmente nativement les publications en deux types :
