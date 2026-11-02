@@ -168,11 +168,11 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
   - `wp user create login email@test.com --role=administrator` : Créer un administrateur.
   - `wp search-replace 'http://ancien-site.com' 'https://nouveau-site.com'` : Remplacer les URLs proprement dans la base. Commandes de Base avec WP-CLI
 
-## 11. 🪝 Les Hooks Actions & Filters
+## 11. 🪝 Les Hooks Action & Filter
 
 Les _Hooks_ permettent de modifier le comportement de WordPress sans toucher au code natif.
 
-### le hook Actions (`add_action`) :
+### Le hook action (`add_action`) :
 
 Permettent d'exécuter du code à un moment précis du chargement de la page.
 
@@ -182,6 +182,18 @@ function mon_theme_scripts() {
     wp_enqueue_style( 'mon-style', get_stylesheet_uri() );
 }
 add_action( 'wp_enqueue_scripts', 'mon_theme_scripts' );
+```
+
+### Le hook Ffilter (`add_filter`)
+
+Permettent de modifier une donnée (texte, tableau, variable) avant qu'elle ne soit affichée ou enregistrée.
+
+```php
+// Exemple : Modifier la longueur des extraits d'articles
+function modifier_longueur_extrait( \$length ) {
+    return 20; // Limite à 20 mots
+}
+add_filter( 'excerpt_length', 'modifier_longueur_extrait' );
 ```
 
 ## 12. 🔒 Sécurité Maintenance & Performances
