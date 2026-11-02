@@ -45,3 +45,7 @@ WordPress utilise un système de cascade pour choisir quel fichier PHP va affich
 - `page.php` : Affiche une page statique unique (_Page_).
 - `archive.php` : Affiche les listes d'articles (par catégorie, tag ou date).
 - `404.php` : Page d'erreur en cas d'URL introuvable (lien mort).
+
+## ⚙️ 3. Le fichier de configuration : `functions.php`
+
+Ce fichier agit comme une extension intégrée à votre thème. C'est ici que vous activez les fonctionnalités de WordPress et liez vos scripts.
