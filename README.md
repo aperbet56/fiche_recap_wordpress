@@ -87,13 +87,17 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 | **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, OceanWP, Hello Elementor, Divi, GeneratePress. |
 | **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO).         |
 
-### Thèmes (Le Visuel)
+### La boucle WordPress
+
+- Le mécanisme PHP principal utilisé par WordPress pour afficher les articles ou pages demandés par l'utilisateur.
+
+### Thèmes (Le Visuel) :
 
 - Situés dans `wp-content/themes/`.
 - Gèrent l'apparence et la mise en page du site.
 - Fichiers indispensables pour créer un thème : `style.css` (contient les métadonnées) et `index.php`.
 
-### Extensions (Les Fonctionnalités)
+### Extensions (Les Fonctionnalités) :
 
 - Situées dans `wp-content/plugins/`.
 - Ajoutent des fonctionnalités (SEO, e-commerce, formulaires, sécurité).
@@ -196,7 +200,7 @@ function mon_theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'mon_theme_scripts' );
 ```
 
-### Le hook Ffilter (`add_filter`)
+### Le hook Ffilter (`add_filter`) :
 
 Permettent de modifier une donnée (texte, tableau, variable) avant qu'elle ne soit affichée ou enregistrée.
 
@@ -267,7 +271,13 @@ add_filter( 'excerpt_length', 'modifier_longueur_extrait' );
 
 - **Contact Form 7** ou **WPForms**
 
-## 14. 🎯 Avantages et Inconvénients
+## 14. 🔥 Outils Essentiels pour Développeurs
+
+- **WP-CLI :** Interface en ligne de commande pour gérer WordPress (installer des plugins, mettre à jour, configurer) sans ouvrir le navigateur.
+- **Local WP :** Logiciel incontournable pour développer des sites WordPress en local de manière rapide et isolée.
+- **Query Monitor :** Extension de débogage pour analyser les requêtes de la base de données, les hooks déclenchés et les performances PHP.
+
+## 15. 🎯 Avantages et Inconvénients
 
 ### 👍 Les Points Forts :
 
