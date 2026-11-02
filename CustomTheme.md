@@ -49,3 +49,36 @@ WordPress utilise un système de cascade pour choisir quel fichier PHP va affich
 ## ⚙️ 3. Le fichier de configuration : `functions.php`
 
 Ce fichier agit comme une extension intégrée à votre thème. C'est ici que vous activez les fonctionnalités de WordPress et liez vos scripts.
+
+### Bonnes pratiques d'intégration des styles et scripts :
+
+_Ne jamais ajouter de balises `<link>` ou `<script>` en dur dans `header.php`_. Utilisez toujours le hook `wp_enqueue_scripts`.
+
+```php
+<?php
+// Dans wp-content/themes/mon-theme-personnel/functions.php
+
+function mon_theme_scripts() {
+    // Intégrer la feuille de style principale style.css
+    wp_enqueue_style( 'mon-theme-main-style', get_stylesheet_uri(), array(), '1.0.0' );
+
+    // Intégrer un script JavaScript (ici chargé en pied de page avec 'true')
+    wp_enqueue_script( 'mon-theme-main-js', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'mon_theme_scripts' );
+
+function mon_theme_supports() {
+    // Ajouter le support des balises de titre dynamiques (<title>)
+    add_theme_support( 'title-tag' );
+
+    // Activer les images à la une pour les articles
+    add_theme_support( 'post-thumbnails' );
+
+    // Enregistrer les emplacements de menus de navigation
+    register_nav_menus( array(
+        'main-menu' => __( 'Menu Principal', 'mon-theme-personnel' ),
+        'footer-menu' => __( 'Menu Pied de Page', 'mon-theme-personnel' ),
+    ) );
+}
+add_action( 'after_setup_theme', 'mon_theme_supports' );
+```
