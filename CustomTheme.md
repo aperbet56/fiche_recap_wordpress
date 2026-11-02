@@ -36,3 +36,12 @@ WordPress utilise un système de cascade pour choisir quel fichier PHP va affich
 - `header.php` : Contient la balise `<head>`, le menu de navigation et le haut de page.
 - `footer.php` : Contient le pied de page, les scripts et la fermeture des balises HTML.
 - `sidebar.php` : Gère les barres latérales (zones de widgets).
+
+#### Fichiers de gabarits spécifiques :
+
+- `front-page.php` : Utilisé exclusivement pour la page d'accueil statique du site.
+- `home.php` : La page qui liste les derniers articles de blog.
+- `single.php` : Affiche le détail d'un article de blog unique (_Post_).
+- `page.php` : Affiche une page statique unique (_Page_).
+- `archive.php` : Affiche les listes d'articles (par catégorie, tag ou date).
+- `404.php` : Page d'erreur en cas d'URL introuvable (lien mort).
