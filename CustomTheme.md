@@ -2,6 +2,8 @@
 
 Créer un thème personnalisé permet de concevoir un site unique, performant et parfaitement adapté aux besoins du projet, sans le surplus de code des thèmes génériques.
 
+Ce guide rassemble l'essentiel pour créer, structurer et développer un thème WordPress sur mesure à partir de zéro (_from scratch_).
+
 ## 1. 🏠 Structure Minimale d'un Thème
 
 Pour que WordPress reconnaisse un thème, un dossier portant le nom de votre thème doit être créé dans `wp-content/themes/` avec au minimum ces **deux fichiers indispensables** :
@@ -120,3 +122,5 @@ Ces fonctions PHP s'utilisent à l'intérieur de vos fichiers de thèmes pour in
 - `the_title()` / `get_the_title()` : Affiche ou retourne le titre du contenu actuel.
 - `the_content()` : Affiche le corps principal créé dans l'éditeur (Gutenberg).
 - `the_post_thumbnail( 'large' )` : Affiche l'image à la une au format configuré.
+- `the_permalink()` : Génère l'URL du post actuel.
+- `the_category()` : Affiche les catégories associées.
