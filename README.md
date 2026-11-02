@@ -87,6 +87,12 @@ Le fonctionnement de WordPress repose sur la séparation stricte du fond, de la 
 | **Le Thème (Design)**                         | Gère l'apparence visuelle, la structure des pages et l'ergonomie (FSE). Un seul thème peut être actif à la fois | Astra, OceanWP, Hello Elementor, Divi, GeneratePress. |
 | **Les Extensions (Plugins)**                  | Ajoutent des fonctionnalités techniques spécifiques au site. Elles restent actives même si l'on change de thème | WooCommerce (Boutique), Yoast/RankMath (SEO).         |
 
+### Thèmes (Le Visuel)
+
+- Situés dans `wp-content/themes/`.
+- Gèrent l'apparence et la mise en page du site.
+- Fichiers indispensables pour créer un thème : `style.css` (contient les métadonnées) et `index.php`.
+
 ## 6. 🗂️ Gestion du Contenu : Articles vs Pages
 
 WordPress segmente nativement les publications en deux types :
