@@ -48,6 +48,27 @@ WordPress utilise un système de cascade pour choisir quel fichier PHP va affich
 - `archive.php` : Affiche les listes d'articles (par catégorie, tag ou date).
 - `404.php` : Page d'erreur en cas d'URL introuvable (lien mort).
 
+### Architecture recommandée pour un thème classique :
+
+```text
+mon-theme-personnel/
+├── assets/             # CSS, JS, Images, Polices
+│   ├── css/
+│   └── js/
+├── parts/              # Morceaux de templates (ex: site-header.php)
+├── inc/                # Fichiers PHP de configuration (fonctions, hooks)
+├── 404.php             # Page d'erreur 404
+├── archive.php         # Affichage des listes (catégories, tags, auteurs)
+├── footer.php          # Pied de page global
+├── functions.php       # Configuration, hooks et scripts du thème
+├── header.php          # En-tête global
+├── index.php           # Template par défaut
+├── page.php            # Modèle pour les pages statiques
+├── single.php          # Modèle pour les articles de blog (Posts)
+├── style.css           # En-tête du thème (Obligatoire)
+└── screenshot.jpg      # Image d'aperçu dans le tableau de bord (1200x900px)
+```
+
 ## 3. ⚙️ Le fichier de configuration : `functions.php`
 
 Ce fichier agit comme une extension intégrée à votre thème. C'est ici que vous activez les fonctionnalités de WordPress et liez vos scripts.
