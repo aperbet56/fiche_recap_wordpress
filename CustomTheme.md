@@ -82,3 +82,31 @@ function mon_theme_supports() {
 }
 add_action( 'after_setup_theme', 'mon_theme_supports' );
 ```
+
+## 🔄 4. La Boucle WordPress (The Loop)
+
+C'est le mécanisme central de WordPress. La boucle WordPress parcourt la base de données pour récupérer et afficher le contenu demandé par l'utilisateur.
+
+```php
+<?php
+get_header(); // Inclut header.php
+
+if ( have_posts() ) :
+    while ( have_posts() ) : the_post(); ?>
+
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <div class="post-meta">Publié le <?php the_date(); ?> par <?php the_author(); ?></div>
+            <div class="post-content">
+                <?php the_excerpt(); // Affiche un résumé de l'article ?>
+            </div>
+        </article>
+
+    <?php endwhile;
+else : ?>
+    <p>Aucun contenu trouvé pour le moment.</p>
+<?php endif;
+
+get_footer(); // Inclut footer.php
+?>
+```
