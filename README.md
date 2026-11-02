@@ -168,7 +168,23 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
   - `wp user create login email@test.com --role=administrator` : Créer un administrateur.
   - `wp search-replace 'http://ancien-site.com' 'https://nouveau-site.com'` : Remplacer les URLs proprement dans la base. Commandes de Base avec WP-CLI
 
-## 11. 🔒 Sécurité Maintenance & Performances
+## 11. 🪝 Les Hooks Actions & Filters
+
+Les _Hooks_ permettent de modifier le comportement de WordPress sans toucher au code natif.
+
+### le hook Actions (`add_action`) :
+
+Permettent d'exécuter du code à un moment précis du chargement de la page.
+
+```php
+// Exemple : Charger des styles CSS personnalisés
+function mon_theme_scripts() {
+    wp_enqueue_style( 'mon-style', get_stylesheet_uri() );
+}
+add_action( 'wp_enqueue_scripts', 'mon_theme_scripts' );
+```
+
+## 12. 🔒 Sécurité Maintenance & Performances
 
 ### 🛡️ Sécurité :
 
@@ -203,7 +219,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 - **Nettoyage de la Base de données** : Supprimer régulièrement les révisions d'articles et les commentaires indésirables.
 - **Choisir un hébergement de qualité adapté au trafic.** : Privilégier un hébergement de qualité avec la dernière version stable de PHP.
 
-## 12. ⚡ Extensions Incontournables (Essentiels)
+## 13. ⚡ Extensions Incontournables (Essentiels)
 
 ### 📈 SEO & Performances / Cache :
 
@@ -227,7 +243,7 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 - **Contact Form 7** ou **WPForms**
 
-## 13. 🎯 Avantages et Inconvénients
+## 14. 🎯 Avantages et Inconvénients
 
 ### 👍 Les Points Forts :
 
