@@ -11,3 +11,18 @@ wp-content/themes/mon-theme-personnel/
 ├── style.css       # Contient les métadonnées du thème et les styles CSS
 └── index.php       # Fichier de secours principal pour afficher le contenu
 ```
+
+#### Exemple d'en-tête obligatoire dans `style.css` :
+
+```css
+/*
+Theme Name: Mon Thème Personnalisé
+Theme URI: https://mon-site.com
+Author: Votre Nom
+Author URI: https://votre-site.com
+Description: Une description plus moins longue de votre thème.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: mon-theme-personnel
+*/
+```
