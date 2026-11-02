@@ -26,3 +26,13 @@ License: GNU General Public License v2 or later
 Text Domain: mon-theme-personnel
 */
 ```
+
+## 📂 2. La Hiérarchie des Fichiers
+
+WordPress utilise un système de cascade pour choisir quel fichier PHP va afficher une page. Si un fichier spécifique n'existe pas, il passe au suivant jusqu'à arriver à `index.php`.
+
+#### Fichiers de structure réutilisables :
+
+- `header.php` : Contient la balise `<head>`, le menu de navigation et le haut de page.
+- `footer.php` : Contient le pied de page, les scripts et la fermeture des balises HTML.
+- `sidebar.php` : Gère les barres latérales (zones de widgets).
