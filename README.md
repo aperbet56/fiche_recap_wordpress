@@ -45,7 +45,7 @@ wordpress/
 
 Ce fichier situé à la racine contient les accès à la base de données et les options de débogage.
 
-### Connexion Base de Données :
+#### Connexion Base de Données :
 
 ```php
 // ** Réglages MySQL ** //
@@ -55,7 +55,7 @@ define( 'DB_PASSWORD', 'mot_de_passe' );
 define( 'DB_HOST', 'localhost' );
 ```
 
-### Mode Débogage (Développement) :
+#### Mode Débogage (Développement) :
 
 ```php
 // ** Mode Débogage (À activer en développement, désactiver en production) ** //
@@ -200,7 +200,7 @@ function mon_theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'mon_theme_scripts' );
 ```
 
-### Le hook Ffilter (`add_filter`) :
+### Le hook filter (`add_filter`) :
 
 Permettent de modifier une donnée (texte, tableau, variable) avant qu'elle ne soit affichée ou enregistrée.
 
@@ -271,7 +271,7 @@ add_filter( 'excerpt_length', 'modifier_longueur_extrait' );
 
 - **Contact Form 7** ou **WPForms**
 
-## 14. 🔥 Outils Essentiels pour Développeurs
+## 14. 🔥 Outils Essentiels pour les Développeurs
 
 - **WP-CLI :** Interface en ligne de commande pour gérer WordPress (installer des plugins, mettre à jour, configurer) sans ouvrir le navigateur.
 - **Local WP :** Logiciel incontournable pour développer des sites WordPress en local de manière rapide et isolée.
