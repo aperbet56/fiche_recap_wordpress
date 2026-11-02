@@ -16,17 +16,25 @@ wp-content/themes/mon-theme-personnel/
 
 #### Exemple d'en-tête obligatoire dans `style.css` :
 
+Placez ce bloc de commentaires tout en haut de votre fichier `style.css` pour enregistrer le thème :
+
 ```css
 /*
 Theme Name: Mon Thème Personnalisé
-Theme URI: https://mon-site.com
+Theme URI: https://votre-site.com
 Author: Votre Nom
 Author URI: https://votre-site.com
-Description: Une description plus moins longue de votre thème.
+Description: Un thème WordPress sur mesure, rapide et optimisé pour le SEO.
 Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 7.4
 License: GNU General Public License v2 or later
+License URI: http://gnu.org
 Text Domain: mon-theme-personnel
 */
+
+/* Votre code CSS commence ici */
 ```
 
 ## 2. 📂 La Hiérarchie des Fichiers
