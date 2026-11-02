@@ -114,3 +114,9 @@ get_footer(); // Inclut footer.php
 ## 5. 🪝 Les fonctions natives indispensables
 
 Ces fonctions PHP s'utilisent à l'intérieur de vos fichiers de thèmes pour injecter le contenu dynamiquement :
+
+- `wp_head()` : **Obligatoire juste avant `</head>` dans `header.php`**. Permet aux plugins d'injecter des styles/scripts.
+- `wp_footer()` : **Obligatoire juste avant `</body>` ans `footer.php`**. Permet d'injecter les scripts de pied de page.
+- `the_title()` / `get_the_title()` : Affiche ou retourne le titre du contenu actuel.
+- `the_content()` : Affiche le corps principal créé dans l'éditeur (Gutenberg).
+- `the_post_thumbnail( 'large' )` : Affiche l'image à la une au format configuré.
