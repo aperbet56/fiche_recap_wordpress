@@ -2,7 +2,7 @@
 
 Créer un thème personnalisé permet de concevoir un site unique, performant et parfaitement adapté aux besoins du projet, sans le surplus de code des thèmes génériques.
 
-## 🏠 1. Structure Minimale d'un Thème
+## 1. 🏠 Structure Minimale d'un Thème
 
 Pour que WordPress reconnaisse un thème, un dossier portant le nom de votre thème doit être créé dans `wp-content/themes/` avec au minimum ces **deux fichiers indispensables** :
 
@@ -27,7 +27,7 @@ Text Domain: mon-theme-personnel
 */
 ```
 
-## 📂 2. La Hiérarchie des Fichiers
+## 2. 📂 La Hiérarchie des Fichiers
 
 WordPress utilise un système de cascade pour choisir quel fichier PHP va afficher une page. Si un fichier spécifique n'existe pas, il passe au suivant jusqu'à arriver à `index.php`.
 
@@ -46,7 +46,7 @@ WordPress utilise un système de cascade pour choisir quel fichier PHP va affich
 - `archive.php` : Affiche les listes d'articles (par catégorie, tag ou date).
 - `404.php` : Page d'erreur en cas d'URL introuvable (lien mort).
 
-## ⚙️ 3. Le fichier de configuration : `functions.php`
+## 3. ⚙️ Le fichier de configuration : `functions.php`
 
 Ce fichier agit comme une extension intégrée à votre thème. C'est ici que vous activez les fonctionnalités de WordPress et liez vos scripts.
 
@@ -83,7 +83,7 @@ function mon_theme_supports() {
 add_action( 'after_setup_theme', 'mon_theme_supports' );
 ```
 
-## 🔄 4. La Boucle WordPress (The Loop)
+## 4. 🔄 La Boucle WordPress (The Loop)
 
 C'est le mécanisme central de WordPress. La boucle WordPress parcourt la base de données pour récupérer et afficher le contenu demandé par l'utilisateur.
 
@@ -110,3 +110,7 @@ else : ?>
 get_footer(); // Inclut footer.php
 ?>
 ```
+
+## 5. 🪝 Les fonctions natives indispensables
+
+Ces fonctions PHP s'utilisent à l'intérieur de vos fichiers de thèmes pour injecter le contenu dynamiquement :
