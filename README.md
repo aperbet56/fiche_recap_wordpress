@@ -45,13 +45,19 @@ wordpress/
 
 Ce fichier situé à la racine contient les accès à la base de données et les options de débogage.
 
+### Connexion Base de Données
+
 ```php
 // ** Réglages MySQL ** //
 define( 'DB_NAME', 'nom_de_la_base' );
 define( 'DB_USER', 'utilisateur' );
 define( 'DB_PASSWORD', 'mot_de_passe' );
 define( 'DB_HOST', 'localhost' );
+```
 
+### Mode Débogage (Développement)
+
+```php
 // ** Mode Débogage (À activer en développement, désactiver en production) ** //
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true ); // Écrit les erreurs dans wp-content/debug.log
