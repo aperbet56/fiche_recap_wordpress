@@ -33,13 +33,13 @@ Text Domain: mon-theme-personnel
 
 WordPress utilise un système de cascade pour choisir quel fichier PHP va afficher une page. Si un fichier spécifique n'existe pas, il passe au suivant jusqu'à arriver à `index.php`.
 
-#### Fichiers de structure réutilisables :
+### Fichiers de structure réutilisables :
 
 - `header.php` : Contient la balise `<head>`, le menu de navigation et le haut de page. Appelé avec `get_header();`.
 - `footer.php` : Contient le pied de page, les scripts et la fermeture des balises HTML. Appelé avec `get_footer();`.
 - `sidebar.php` : Gère les barres latérales (zones de widgets). Appelé avec `get_sidebar();`.
 
-#### Fichiers de gabarits spécifiques :
+### Fichiers de gabarits spécifiques :
 
 - `front-page.php` : Utilisé exclusivement pour la page d'accueil statique du site.
 - `home.php` : La page qui liste les derniers articles de blog.
