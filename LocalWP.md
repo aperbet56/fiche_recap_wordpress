@@ -2,6 +2,16 @@
 
 **Local** est un logiciel gratuit (outil de référence) permettant de créer, gérer et tester des sites WordPress en local (directement sur votre ordinateur) sans avoir besoin d'une connexion internet ni de configurer manuellement un serveur (Apache/Nginx, PHP, MySQL).
 
+## 1. 🧰 Installer LocalWP
+
+### 🔗 Lien de téléchargement :
+
+👉 [https://localwp.com](https://localwp.com)
+
+- **Téléchargez **Local** selon ton système (Windows / macOS / Linux).**
+- **Suivez l’installation classique (suivant / suivant / installer).**
+- **Lancez l’application.**
+
 ## 🚀 Fonctionnalités principales
 
 - **Création rapide de sites :** Installation de WordPress en un clic (choix du nom du site, de l'environnement et des identifiants admin).
