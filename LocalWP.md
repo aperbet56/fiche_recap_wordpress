@@ -33,7 +33,9 @@
 - **Nom du site :** Définir le nom du projet (ex: _Mon Projet_). Cela générera automatiquement le domaine local (ex: `mon-projet.local`).
 - **Environnement :** Choisir _Preferred_ (recommandé) ou _Custom_ (pour fixer une version précise de PHP/MySQL).
 - **WordPress :** Renseigner l'identifiant administrateur, le mot de passe et l'e-mail.
-  **Accès :**
+
+**Accès :**
+
 - **WP Admin :** Bouton pour ouvrir directement le tableau de bord (`/wp-admin`).
 - **Open Site :** Bouton pour afficher le site public.
 
@@ -42,3 +44,5 @@
 - Une base de données
 - Un WordPress fonctionnel
 - Une URL locale (ex: `http://mon-site-test.local`)
+
+## 4. 📁 Structure des Fichiers & Outils Intégrés
