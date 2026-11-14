@@ -49,5 +49,9 @@
 
 ### Emplacement par défaut des projets
 
+Par défaut, Local stocke tous vos projets dans le dossier `Local Sites` de votre répertoire utilisateur :
+
 - **Windows :** `C:\Users\[NomUtilisateur]\Local Sites\[nom-du-site]\`
 - **macOS :** `~/Local Sites/[nom-du-site]/`
+
+### Arborescence d'un site
