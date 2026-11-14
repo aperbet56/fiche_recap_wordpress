@@ -24,3 +24,21 @@
 - **Téléchargez **Local** selon votre système d'exploitation (Windows / macOS / Linux).**
 - **Suivez l’installation classique (suivant / suivant / installer).**
 - **Lancez l’application.**
+
+## 3. ⚙️ Démarrage Rapide
+
+**Création d'un site :**
+
+- Cliquer sur le bouton **`+`** (en bas à gauche) > _Create a new site_.
+- **Nom du site :** Définir le nom du projet (ex: _Mon Projet_). Cela générera automatiquement le domaine local (ex: `mon-projet.local`).
+- **Environnement :** Choisir _Preferred_ (recommandé) ou _Custom_ (pour fixer une version précise de PHP/MySQL).
+- **WordPress :** Renseigner l'identifiant administrateur, le mot de passe et l'e-mail.
+  **Accès :**
+- **WP Admin :** Bouton pour ouvrir directement le tableau de bord (`/wp-admin`).
+- **Open Site :** Bouton pour afficher le site public.
+
+💡 Local crée automatiquement :
+
+- Une base de données
+- Un WordPress fonctionnel
+- Une URL locale (ex: `http://mon-site-test.local`)
