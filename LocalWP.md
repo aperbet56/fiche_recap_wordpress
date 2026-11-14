@@ -65,3 +65,9 @@ Par défaut, Local stocke tous vos projets dans le dossier `Local Sites` de votr
     ├── conf/                <-- Fichiers de configuration (PHP, Nginx/Apache, MySQL)
     └── logs/                <-- Journaux d'erreurs (PHP, serveur web, base de données)
 ```
+
+### Onglets du tableau de bord Local :
+
+- **Overview :** Gestion du domaine, activation du SSL, version PHP, activation du _One-click Admin_ (connexion sans mot de passe).
+- **Database :** Accès rapide à la base de données via **Adminer** (ou TablePlus/Sequel Ace) et identifiants de connexion (`root` / `root`).
+- **Tools :** Accès à **Mailpit** (e-mails locaux) et configuration des **Live Links**.
