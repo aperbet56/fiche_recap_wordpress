@@ -99,3 +99,4 @@ wp search-replace 'https://ancien-domaine.fr' 'http://mon-site.local' --all-tabl
 - **Ouvrir le terminal WP-CLI :** Clic droit sur le nom du site dans la barre latérale > **`Open Site Shell`**.
 - **Cloner ou exporter un site :** Clic droit sur le nom du site > **`Clone`** ou **`Export`** (génère une archive `.zip` complète incluant les fichiers et la base de données).
 - **Vérifier les e-mails sortants :** Aller dans l'onglet **`Tools`** > **`Mailpit`** (ou _Open Mailpit_)
+- **Déploiement rapide:** Connectez directement votre compte **WP Engine** ou **Flywheel** (onglet _Connect_) pour pousser votre site en ligne en un clic.
