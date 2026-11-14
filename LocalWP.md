@@ -117,3 +117,10 @@ wp search-replace 'https://ancien-domaine.fr' 'http://mon-site.local' --all-tabl
 - **Conflit de ports (Port 80/443 déjà utilisé) :** Allez dans _Preferences > Advanced > Router Mode_ et passez de `Site Domains` à `localhost` (l'URL deviendra `localhost:1000X` au lieu de `monsite.local`).
 - **Site lent sous Windows :** Ajoutez le dossier `Local Sites` aux exclusions de votre antivirus (Windows Defender).
 - **Erreurs PHP :** Consultez le fichier `logs/php/error.log` ou activez `WP_DEBUG` directement dans `app/public/wp-config.php`.
+- **Arrêter les sites inutilisés** (`Stop site`) pour libérer de la mémoire vive (RAM) et du processeur.
+- **Activer le mode Debug** dans `wp-config.php` lors du développement :
+  ```php
+  define( 'WP_DEBUG', true );
+  define( 'WP_DEBUG_LOG', true );
+  ```
+- **Débogage :** Activer `WP_DEBUG` facilement ou consulter directement le dossier `logs/php/` en cas d'écran blanc.
