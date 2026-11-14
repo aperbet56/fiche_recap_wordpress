@@ -55,3 +55,13 @@ Par défaut, Local stocke tous vos projets dans le dossier `Local Sites` de votr
 - **macOS :** `~/Local Sites/[nom-du-site]/`
 
 ### Arborescence d'un site
+
+```text
+~/Local Sites/
+└── mon-projet/
+    ├── app/
+    │   ├── public/          <-- Racine de WordPress (wp-content, wp-config.php...)
+    │   └── sql/             <-- Sauvegardes SQL générées à l'arrêt du site
+    ├── conf/                <-- Fichiers de configuration (PHP, Nginx/Apache, MySQL)
+    └── logs/                <-- Journaux d'erreurs (PHP, serveur web, base de données)
+```
