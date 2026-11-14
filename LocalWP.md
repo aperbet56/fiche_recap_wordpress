@@ -92,3 +92,10 @@ wp db export sauvegarde.sql
 # Remplacer une URL dans la base (utile après une migration)
 wp search-replace 'https://ancien-domaine.fr' 'http://mon-site.local' --all-tables
 ```
+
+## 6. 💡 Commandes et astuces utiles
+
+- **Activer le HTTPS :** Dans l'onglet _Overview_ de votre site, cliquer sur **`Trust`** à côté de la mention _SSL_.
+- **Ouvrir le terminal WP-CLI :** Clic droit sur le nom du site dans la barre latérale > **`Open Site Shell`**.
+- **Cloner ou exporter un site :** Clic droit sur le nom du site > **`Clone`** ou **`Export`** (génère une archive `.zip` complète incluant les fichiers et la base de données).
+- **Vérifier les e-mails sortants :** Aller dans l'onglet **`Tools`** > **`Mailpit`** (ou _Open Mailpit_)
