@@ -104,7 +104,7 @@ wp db export sauvegarde.sql
 wp search-replace 'https://ancien-domaine.fr' 'http://mon-site.local' --all-tables
 ```
 
-## 6. 💡 Commandes et astuces utiles
+## 6. ⚠️ Commandes et astuces utiles
 
 - **Activer le HTTPS :** Dans l'onglet _Overview_ de votre site, cliquer sur **`Trust`** à côté de la mention _SSL_.
 - **Ouvrir le terminal WP-CLI :** Clic droit sur le nom du site dans la barre latérale > **`Open Site Shell`**.
