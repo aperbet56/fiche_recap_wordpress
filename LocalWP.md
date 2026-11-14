@@ -44,6 +44,10 @@
 
 - **Gérer la base de données :** Onglet **Database** -> **Open AdminerEvo** (ou TablePlus/Sequel Ace) pour explorer vos tables SQL.
 
+**Utiliser WP-CLI :**
+
+- **Cliquez sur **Site shell** sous le nom du site pour ouvrir un terminal préconfiguré avec WP-CLI.**
+
 Local crée automatiquement :
 
 - Une base de données
