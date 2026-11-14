@@ -33,11 +33,16 @@
 - **Nom du site :** Définir le nom du projet (ex: _Mon Projet_). Cela générera automatiquement le domaine local (ex: `mon-projet.local`).
 - **Environnement :** Choisir _Preferred_ (recommandé) ou _Custom_ (pour fixer une version précise de PHP/MySQL).
 - **WordPress :** Renseigner l'identifiant administrateur, le mot de passe et l'e-mail.
+- **Démarrer / Arrêter :** Utilisez le bouton **Start site** / **Stop site** en haut à droite pour économiser les ressources de votre ordinateur.
 
 **Accès :**
 
 - **WP Admin :** Bouton pour ouvrir directement le tableau de bord (`/wp-admin`).
 - **Open Site :** Bouton pour afficher le site public.
+
+**Base de données:**
+
+- **Gérer la base de données :** Onglet **Database** -> **Open AdminerEvo** (ou TablePlus/Sequel Ace) pour explorer vos tables SQL.
 
 Local crée automatiquement :
 
@@ -100,3 +105,9 @@ wp search-replace 'https://ancien-domaine.fr' 'http://mon-site.local' --all-tabl
 - **Cloner ou exporter un site :** Clic droit sur le nom du site > **`Clone`** ou **`Export`** (génère une archive `.zip` complète incluant les fichiers et la base de données).
 - **Vérifier les e-mails sortants :** Aller dans l'onglet **`Tools`** > **`Mailpit`** (ou _Open Mailpit_)
 - **Déploiement rapide:** Connectez directement votre compte **WP Engine** ou **Flywheel** (onglet _Connect_) pour pousser votre site en ligne en un clic.
+
+## 7. 🔧 Dépannage rapide
+
+- **Conflit de ports (Port 80/443 déjà utilisé) :** Allez dans _Preferences > Advanced > Router Mode_ et passez de `Site Domains` à `localhost` (l'URL deviendra `localhost:1000X` au lieu de `monsite.local`).
+- **Site lent sous Windows :** Ajoutez le dossier `Local Sites` aux exclusions de votre antivirus (Windows Defender).
+- **Erreurs PHP :** Consultez le fichier `logs/php/error.log` ou activez `WP_DEBUG` directement dans `app/public/wp-config.php`.
