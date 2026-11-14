@@ -46,3 +46,8 @@
 - Une URL locale (ex: `http://mon-site-test.local`)
 
 ## 4. 📁 Structure des Fichiers & Outils Intégrés
+
+### Emplacement par défaut des projets
+
+- **Windows :** `C:\Users\[NomUtilisateur]\Local Sites\[nom-du-site]\`
+- **macOS :** `~/Local Sites/[nom-du-site]/`
