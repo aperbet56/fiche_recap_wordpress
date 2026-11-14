@@ -71,3 +71,24 @@ Par défaut, Local stocke tous vos projets dans le dossier `Local Sites` de votr
 - **Overview :** Gestion du domaine, activation du SSL, version PHP, activation du _One-click Admin_ (connexion sans mot de passe).
 - **Database :** Accès rapide à la base de données via **Adminer** (ou TablePlus/Sequel Ace) et identifiants de connexion (`root` / `root`).
 - **Tools :** Accès à **Mailpit** (e-mails locaux) et configuration des **Live Links**.
+
+## 5. 💡 Commandes Utiles (via "Site Shell")
+
+En cliquant sur **`Site Shell`** sous le nom de votre site dans Local, vous ouvrez un terminal directement connecté à l'environnement du site :
+
+```bash
+# Lister les extensions installées
+wp plugin list
+
+# Mettre à jour toutes les extensions
+wp plugin update --all
+
+# Créer un nouvel utilisateur administrateur
+wp user create jean jean@exemple.fr --role=administrator --user_pass=MotDePasse123
+
+# Exporter la base de données dans un fichier SQL
+wp db export sauvegarde.sql
+
+# Remplacer une URL dans la base (utile après une migration)
+wp search-replace 'https://ancien-domaine.fr' 'http://mon-site.local' --all-tables
+```
