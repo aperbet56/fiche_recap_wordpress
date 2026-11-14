@@ -39,7 +39,7 @@
 - **WP Admin :** Bouton pour ouvrir directement le tableau de bord (`/wp-admin`).
 - **Open Site :** Bouton pour afficher le site public.
 
-💡 Local crée automatiquement :
+Local crée automatiquement :
 
 - Une base de données
 - Un WordPress fonctionnel
@@ -47,14 +47,14 @@
 
 ## 4. 📁 Structure des Fichiers & Outils Intégrés
 
-### Emplacement par défaut des projets
+### Emplacement par défaut des projets :
 
 Par défaut, Local stocke tous vos projets dans le dossier `Local Sites` de votre répertoire utilisateur :
 
 - **Windows :** `C:\Users\[NomUtilisateur]\Local Sites\[nom-du-site]\`
 - **macOS :** `~/Local Sites/[nom-du-site]/`
 
-### Arborescence d'un site
+### Arborescence d'un site :
 
 ```text
 ~/Local Sites/
