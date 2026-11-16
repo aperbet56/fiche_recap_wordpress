@@ -8,7 +8,7 @@ Ce document récapitule le fonctionnement, la création et l'utilisation des **B
 
 - **Gain de temps considérable :** Évite de réinstaller et configurer les mêmes extensions à chaque nouveau projet.
 - **Standardisation :** Garantit une base saine, sécurisée et uniforme (idéal en agence ou en freelance).
-- **Productivité :** Permet de partir d'un WordPress débarrassé des éléments inutiles par défaut (articles d'exemple, extensions préinstallées).
+- **Prêt à l'emploi :** Permet de partir d'un WordPress débarrassé des éléments inutiles par défaut (articles d'exemple, extensions préinstallées).
 
 ## 2. 🛠️ Créer un Blueprint (Étape par étape)
 
