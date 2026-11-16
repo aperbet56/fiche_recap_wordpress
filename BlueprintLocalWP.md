@@ -79,3 +79,13 @@ Pour voir, renommer ou supprimer vos modèles existants :
 - **Nettoyage :** Videz le cache et supprimez les données temporaires (transients) avant de sauvegarder le Blueprint pour qu'il soit le plus léger possible.
 - **Gardez le blueprint léger :** N'installez que les outils indispensables à 90 % de vos projets pour éviter d'alourdir inutilement vos futurs sites.
 - **Utilisez un mot de passe générique local :** Utilisez un identifiant simple en local (ex. `admin` / `admin`) que vous modifierez impérativement lors de la mise en production.
+
+## 7. ✅ Checklist d'un bon Blueprint
+
+- [ ] WordPress à jour
+- [ ] Permaliens réglés sur _Titre de la publication_
+- [ ] Suppression de _Bonjour tout le monde !_ et de la _Page d'exemple_
+- [ ] Suppression des thèmes et extensions inutiles (_Hello Dolly_, _Akismet_ si non utilisé)
+- [ ] Langue et fuseau horaire configurés
+- [ ] Désactivation de l'indexation par les moteurs de recherche (pendant le développement)
+- [ ] **Aucune donnée sensible** (clés API personnelles, licences payantes nominatives, vrais emails clients)
