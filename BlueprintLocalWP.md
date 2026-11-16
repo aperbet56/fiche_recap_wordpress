@@ -19,6 +19,12 @@ Un **Blueprint** (modèle) est une sauvegarde complète d'un site WordPress conf
   - Supprimer les extensions inutiles (_Hello Dolly_, _Akismet_).
 
 - **Configurer les réglages de base :**
+
   - _Réglages > Général_ : Fuseau horaire (Paris), format de date/heure, langue.
   - _Réglages > Permaliens_ : Sélectionner **Titre de la publication**.
   - _Réglages > Lecture_ : Cocher _Demander aux moteurs de recherche de ne pas indexer ce site_ (bonne pratique en développement).
+
+- **Installer vos essentiels :**
+
+  - Thème favori ou thème enfant (_Hello Elementor_, _Astra_, _GeneratePress_, thème sur mesure...).
+  - Extensions indispensables (SEO, sauvegarde, sécurité, constructeur de page, etc.).
