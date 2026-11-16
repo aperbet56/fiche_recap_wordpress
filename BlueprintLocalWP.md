@@ -89,3 +89,7 @@ Pour voir, renommer ou supprimer vos modèles existants :
 - [ ] Langue et fuseau horaire configurés
 - [ ] Désactivation de l'indexation par les moteurs de recherche (pendant le développement)
 - [ ] **Aucune donnée sensible** (clés API personnelles, licences payantes nominatives, vrais emails clients)
+
+## 8. 🔗 Guide officiel :
+
+👉 [https://localwp.com/help-docs/local-features/how-to-use-blueprints](https://localwp.com/help-docs/local-features/how-to-use-blueprints/)
