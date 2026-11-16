@@ -28,3 +28,9 @@ Un **Blueprint** (modèle) est une sauvegarde complète d'un site WordPress conf
 
   - Thème favori ou thème enfant (_Hello Elementor_, _Astra_, _GeneratePress_, thème sur mesure...).
   - Extensions indispensables (SEO, sauvegarde, sécurité, constructeur de page, etc.).
+
+- **Enregistrer le Blueprint :**
+
+  - Dans Local, faire un **clic droit** sur le nom du site dans la barre latérale.
+  - Cliquer sur **`Save as Blueprint`**.
+  - Donner un nom explicite (ex. `WP-Vitrine-2026` ou `WP-WooCommerce`) et valider.
