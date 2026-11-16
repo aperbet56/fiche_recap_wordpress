@@ -63,3 +63,8 @@ Pour voir, renommer ou supprimer vos modèles existants :
   - **Renommer** un Blueprint existant.
   - **Supprimer** un Blueprint obsolète.
   - **Localiser les fichiers** (`.zip`) sur votre ordinateur pour sauvegarder ou les partager avec une équipe.
+
+## 5. ⚠️ Points de vigilance
+
+- **Licences Pro :** Ne pas activer de clés de licence payantes dans le Blueprint si le nombre d'activations est limité (les activer uniquement sur le projet final).
+- **Identifiants :** Le nouveau site créé héritera exactement des mêmes identifiants administrateur (`user` / `password`) que ceux du site ayant servi à créer le Blueprint.
