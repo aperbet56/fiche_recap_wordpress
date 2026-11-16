@@ -11,7 +11,14 @@ Un **Blueprint** (modèle) est une sauvegarde complète d'un site WordPress conf
 ## 2. 🛠️ Créer un Blueprint (Étape par étape)
 
 - **Créer un site vierge** dans Local (ex. nommé `Modele-Base-WP`).
+
 - **Nettoyer WordPress :**
+
   - Supprimer les articles, pages et commentaires d'exemple (_Bonjour tout le monde_, _Page d'exemple_).
   - Supprimer les thèmes inutiles (ne garder que le thème actif et un thème par défaut de secours).
   - Supprimer les extensions inutiles (_Hello Dolly_, _Akismet_).
+
+- **Configurer les réglages de base :**
+  - _Réglages > Général_ : Fuseau horaire (Paris), format de date/heure, langue.
+  - _Réglages > Permaliens_ : Sélectionner **Titre de la publication**.
+  - _Réglages > Lecture_ : Cocher _Demander aux moteurs de recherche de ne pas indexer ce site_ (bonne pratique en développement).
