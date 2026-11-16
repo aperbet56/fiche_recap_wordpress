@@ -42,3 +42,15 @@ Un **Blueprint** (modèle) est une sauvegarde complète d'un site WordPress conf
 - Sélectionner le Blueprint souhaité dans la liste et cliquez sur **"Continue"**.
 - Nommer le nouveau site et lancer l'installation.
 - LocalWP clone l'intégralité du modèle et met automatiquement à jour les URLs dans la base de données.
+
+## 4. ⚙️ Gérer et mettre à jour ses Blueprints
+
+- **Accéder aux Blueprints :** Menu principal de Local > onglet **Blueprints** (icône de plan/schéma dans la barre latérale gauche).
+
+- **Mettre à jour un Blueprint :** Il n'existe pas de bouton « Modifier » direct. La méthode recommandée est de :
+  1. Créer un site temporaire à partir de l'ancien Blueprint.
+  2. Mettre à jour WordPress, le thème et les extensions.
+  3. Enregistrer ce site mis à jour comme nouveau Blueprint (`Save as Blueprint`).
+  4. Supprimer l'ancien Blueprint et le site temporaire.
+
+* **Emplacement sur le disque :** Les fichiers `.zip` des Blueprints sont stockés dans le dossier de configuration de Local (utile pour les partager avec une équipe).
