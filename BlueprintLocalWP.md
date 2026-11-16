@@ -39,5 +39,6 @@ Un **Blueprint** (modèle) est une sauvegarde complète d'un site WordPress conf
 
 - Cliquer sur le bouton **`+`** (en bas à gauche) pour créer un site.
 - Cliquer sur **`Create from a Blueprint`** (Créer à partir d'un Blueprint) en bas de la fenêtre de création au lieu de _Create a new site_.
-- Sélectionner le Blueprint souhaité dans la liste.
+- Sélectionner le Blueprint souhaité dans la liste et cliquez sur **"Continue"**.
 - Nommer le nouveau site et lancer l'installation.
+- LocalWP clone l'intégralité du modèle et met automatiquement à jour les URLs dans la base de données.
