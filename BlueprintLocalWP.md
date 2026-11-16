@@ -2,6 +2,8 @@
 
 Un **Blueprint** (modèle) est une sauvegarde complète d'un site WordPress configuré (fichiers, base de données, thèmes, extensions et réglages) permettant de cloner instantanément cette base de travail pour de futurs projets.
 
+Ce document récapitule le fonctionnement, la création et l'utilisation des **Blueprints** dans [LocalWP](https://localwp.com) afin d'accélérer le déploiement de nouveaux projets WordPress.
+
 ## 1. 🎯 Pourquoi utiliser un Blueprint ?
 
 - **Gain de temps considérable :** Évite de réinstaller et configurer les mêmes extensions à chaque nouveau projet.
