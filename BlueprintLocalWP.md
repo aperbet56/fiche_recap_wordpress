@@ -68,3 +68,10 @@ Pour voir, renommer ou supprimer vos modèles existants :
 
 - **Licences Pro :** Ne pas activer de clés de licence payantes dans le Blueprint si le nombre d'activations est limité (les activer uniquement sur le projet final).
 - **Identifiants :** Le nouveau site créé héritera exactement des mêmes identifiants administrateur (`user` / `password`) que ceux du site ayant servi à créer le Blueprint.
+
+## 6. 💡 Bonnes pratiques et astuces
+
+- **Mises à jour régulières :** Pensez à recréer ou mettre à jour vos Blueprints tous les 2 à 3 mois pour éviter d'avoir des dizaines de mises à jour d'extensions à faire dès la création d'un site.
+- **Catégorisez vos modèles :** Créez plusieurs Blueprints selon vos types de projets (ex: _Site Vitrine_, _E-commerce_, _Blog_, _Landing Page_).
+- **Pas de clés de licence sensibles :** Évitez d'enregistrer vos clés API ou licences Pro personnelles dans un Blueprint si vous prévoyez de partager le fichier `.zip` avec d'autres développeurs.
+- **Nettoyage :** Videz le cache et supprimez les données temporaires (transients) avant de sauvegarder le Blueprint pour qu'il soit le plus léger possible.
