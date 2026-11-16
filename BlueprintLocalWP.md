@@ -34,3 +34,10 @@ Un **Blueprint** (modèle) est une sauvegarde complète d'un site WordPress conf
   - Dans Local, faire un **clic droit** sur le nom du site dans la barre latérale.
   - Cliquer sur **`Save as Blueprint`**.
   - Donner un nom explicite (ex. `WP-Vitrine-2026` ou `WP-WooCommerce`) et valider.
+
+## 3. 🚀 Utiliser un Blueprint pour un nouveau projet
+
+- Cliquer sur le bouton **`+`** (en bas à gauche) pour créer un site.
+- Cliquer sur **`Create from a Blueprint`** (Créer à partir d'un Blueprint) en bas de la fenêtre de création au lieu de _Create a new site_.
+- Sélectionner le Blueprint souhaité dans la liste.
+- Nommer le nouveau site et lancer l'installation.
