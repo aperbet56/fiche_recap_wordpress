@@ -75,4 +75,5 @@ Pour voir, renommer ou supprimer vos modèles existants :
 - **Catégorisez vos modèles :** Créez plusieurs Blueprints selon vos types de projets (ex: _Site Vitrine_, _E-commerce_, _Blog_, _Landing Page_).
 - **Pas de clés de licence sensibles :** Évitez d'enregistrer vos clés API ou licences Pro personnelles dans un Blueprint si vous prévoyez de partager le fichier `.zip` avec d'autres développeurs.
 - **Nettoyage :** Videz le cache et supprimez les données temporaires (transients) avant de sauvegarder le Blueprint pour qu'il soit le plus léger possible.
-- **Gardez-le léger :** N'installez que les outils indispensables à 90 % de vos projets pour éviter d'alourdir inutilement vos futurs sites.
+- **Gardez le blueprint léger :** N'installez que les outils indispensables à 90 % de vos projets pour éviter d'alourdir inutilement vos futurs sites.
+- **Utilisez un mot de passe générique local :** Utilisez un identifiant simple en local (ex. `admin` / `admin`) que vous modifierez impérativement lors de la mise en production.
