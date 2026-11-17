@@ -32,3 +32,8 @@ Dans l'interface d'édition d'un rôle, chaque capacité possède deux cases à 
 - **Refuser (Deny) :** Interdit formellement l'action.
 
 > 💡 **Bon à savoir :** La règle **Refuser** prend toujours le dessus sur **Accorder**, même si un utilisateur possède plusieurs rôles cumulatifs.
+
+### C. Attribution de rôles multiples
+
+- Aller dans **Membres > Réglages** et cocher l'option **Activer la fonctionnalité de rôles multiples**.
+- Dans la fiche d'un utilisateur (**Utilisateurs > Tous les utilisateurs**), il devient possible de cocher plusieurs rôles simultanément (ex. : _Auteur_ + _Modérateur de commentaires_).
