@@ -15,3 +15,11 @@ Sous WordPress, les permissions reposent sur deux notions fondamentales que le p
 2. Rechercher **Members** (développé par _MemberPress_).
 3. Installer et activer l'extension.
 4. Un nouveau menu **Membres** apparaît dans la barre latérale gauche de l'administration.
+
+## 3. 🛠️ Fonctionnalités principales
+
+### A. Créer, cloner ou modifier un rôle
+
+- **Modifier un rôle existant :** Aller dans **Membres > Rôles**, survoler un rôle et cliquer sur _Modifier_.
+- **Cloner un rôle (Recommandé) :** Permet de créer un rôle sur mesure à partir d'une base saine (ex. : cloner le rôle _Éditeur_ pour créer un _Éditeur Junior_ sans accès aux pages).
+- **Créer un rôle vierge :** Cliquer sur **Membres > Ajouter un rôle** pour partir de zéro.
