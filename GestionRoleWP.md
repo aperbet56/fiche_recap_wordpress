@@ -2,7 +2,7 @@
 
 Ce document récapitule les fonctionnalités clés et les bonnes pratiques pour configurer une gestion fine des rôles, des capacités (permissions) et des accès aux contenus avec l'extension **Members**.
 
-## 📋 1. Concepts de base
+## 1. 📋 Concepts de base
 
 Sous WordPress, les permissions reposent sur deux notions fondamentales que le plugin **Members** permet de manipuler graphiquement :
 
