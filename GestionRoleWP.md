@@ -23,3 +23,12 @@ Sous WordPress, les permissions reposent sur deux notions fondamentales que le p
 - **Modifier un rôle existant :** Aller dans **Membres > Rôles**, survoler un rôle et cliquer sur _Modifier_.
 - **Cloner un rôle (Recommandé) :** Permet de créer un rôle sur mesure à partir d'une base saine (ex. : cloner le rôle _Éditeur_ pour créer un _Éditeur Junior_ sans accès aux pages).
 - **Créer un rôle vierge :** Cliquer sur **Membres > Ajouter un rôle** pour partir de zéro.
+
+### B. Gérer les capacités (Accorder / Refuser)
+
+Dans l'interface d'édition d'un rôle, chaque capacité possède deux cases à cocher :
+
+- **Accorder (Grant) :** Autorise explicitement l'action.
+- **Refuser (Deny) :** Interdit formellement l'action.
+
+> 💡 **Bon à savoir :** La règle **Refuser** prend toujours le dessus sur **Accorder**, même si un utilisateur possède plusieurs rôles cumulatifs.
