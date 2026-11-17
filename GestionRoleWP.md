@@ -8,3 +8,10 @@ Sous WordPress, les permissions reposent sur deux notions fondamentales que le p
 
 - **Rôle (Role) :** Un profil attribué à un utilisateur (ex. : _Éditeur_, _Auteur_, _Gestionnaire de boutique_).
 - **Capacité (Capability) :** Une action spécifique qu'un rôle est autorisé ou non à effectuer (ex. : `edit_posts`, `publish_pages`, `manage_options`).
+
+## 2. ⚙️ Installation et activation
+
+1. Aller dans **Extensions > Ajouter** depuis le tableau de bord WordPress.
+2. Rechercher **Members** (développé par _MemberPress_).
+3. Installer et activer l'extension.
+4. Un nouveau menu **Membres** apparaît dans la barre latérale gauche de l'administration.
