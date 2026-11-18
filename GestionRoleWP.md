@@ -88,14 +88,24 @@ Une fois l'option activée dans les réglages :
 2. Modifiez le profil de l'utilisateur souhaité.
 3. Dans la section **Rôles**, cochez simplement toutes les cases correspondant aux rôles à cumuler (ex: _Auteur_ + _Gestionnaire de boutique_).
 
-## 7. ⚠️ Restriction de contenu
+## 7. Capacités courantes utiles
+
+- `read` : Accès au tableau de bord WordPress (indispensable pour tout rôle back-office).
+- `edit_posts` / `publish_posts` / `delete_posts` : Gestion de ses propres articles.
+- `edit_others_posts` / `delete_others_posts` : Gestion des articles des autres utilisateurs.
+- `manage_categories` : Création et édition des catégories et étiquettes.
+- `upload_files` : Accès à la médiathèque et ajout de fichiers.
+- `edit_theme_options` : Accès aux menus, widgets et personnalisation du thème.
+- `list_users` / `edit_users` / `create_users` : Gestion des comptes utilisateurs.
+
+## 8. 🔒 Restriction de contenu
 
 Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît sous l'éditeur de chaque article, page ou Custom Post Type (CPT).
 
 - **Qui peut voir ce contenu ?** Cochez les rôles autorisés à lire la page. Si rien n'est coché, le contenu reste public.
 - **Message d'erreur** : Personnalisez le texte affiché aux utilisateurs non connectés ou n'ayant pas le bon rôle.
 
-## 8. 🛡️ Bonnes pratiques de sécurité
+## 9. 🛡️ Bonnes pratiques de sécurité
 
 - 🔒 **Principe du moindre privilège** : N'accordez que les permissions strictement nécessaires à la mission de l'utilisateur.
 - 🚫 **Ne jamais modifier le rôle Administrateur** : Gardez toujours un rôle `Administrateur` intact avec 100 % des droits pour éviter de vous bloquer hors de votre propre site.
