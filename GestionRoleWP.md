@@ -11,21 +11,21 @@ Le plugin **Members** permet d'étendre le système natif des rôles et capacit�
 - Attribuer plusieurs rôles à un seul utilisateur.
 - Restreindre l'accès au contenu (pages, articles, CPT) et au site entier.
 
-## 1. 🔑 Concepts de base
+## 2. 🔑 Concepts de base
 
 Sous WordPress, les permissions reposent sur deux notions fondamentales que le plugin **Members** permet de manipuler graphiquement :
 
 - **Rôle (Role) :** Un profil attribué à un utilisateur (ex. : _Éditeur_, _Auteur_, _Gestionnaire de boutique_).
 - **Capacité (Capability) :** Une action spécifique qu'un rôle est autorisé ou non à effectuer (ex. : `edit_posts`, `publish_pages`, `manage_options`).
 
-## 2. ⚙️ Installation et activation
+## 3. ⚙️ Installation et activation
 
 1. Aller dans **Extensions > Ajouter** depuis le tableau de bord WordPress.
 2. Rechercher **Members** (développé par _MemberPress_).
 3. Installer et activer l'extension.
 4. Un nouveau menu **Membres** apparaît dans la barre latérale gauche de l'administration.
 
-## 3. 🛠️ Fonctionnalités principales
+## 4. 🛠️ Fonctionnalités principales
 
 ### A. Créer, cloner ou modifier un rôle
 
@@ -56,7 +56,7 @@ Pour un client qui doit gérer le contenu sans casser le site :
 - **Refuser** dans la catégorie _Extensions_ : `activate_plugins`, `install_plugins`, `update_plugins`.
 - **Refuser** dans la catégorie _Général_ : `manage_options`, `export`, `import`.
 
-## 4. Attribution de rôles multiples
+## 5. Attribution de rôles multiples
 
 Une fois l'option activée dans les réglages :
 
@@ -64,14 +64,14 @@ Une fois l'option activée dans les réglages :
 2. Modifiez le profil de l'utilisateur souhaité.
 3. Dans la section **Rôles**, cochez simplement toutes les cases correspondant aux rôles à cumuler (ex: _Auteur_ + _Gestionnaire de boutique_).
 
-## 5. Restriction de contenu
+## 6. Restriction de contenu
 
 Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît sous l'éditeur de chaque article, page ou Custom Post Type (CPT).
 
 - **Qui peut voir ce contenu ?** Cochez les rôles autorisés à lire la page. Si rien n'est coché, le contenu reste public.
 - **Message d'erreur** : Personnalisez le texte affiché aux utilisateurs non connectés ou n'ayant pas le bon rôle.
 
-## 6. 🛡️ Bonnes pratiques de sécurité
+## 7. 🛡️ Bonnes pratiques de sécurité
 
 - 🔒 **Principe du moindre privilège** : N'accordez que les permissions strictement nécessaires à la mission de l'utilisateur.
 - 🚫 **Ne jamais modifier le rôle Administrateur** : Gardez toujours un rôle `Administrateur` intact avec 100 % des droits pour éviter de vous bloquer hors de votre propre site.
