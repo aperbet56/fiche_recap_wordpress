@@ -98,6 +98,10 @@ Une fois l'option activée dans les réglages :
 - `edit_theme_options` : Accès aux menus, widgets et personnalisation du thème.
 - `list_users` / `edit_users` / `create_users` : Gestion des comptes utilisateurs.
 
+### Créer une capacité personnalisée
+
+- Dans l'éditeur de rôle, utiliser le bouton **Ajouter une capacité** (_Add New Capability_) en haut de la page pour créer des permissions sur-mesure utilisables dans votre code PHP (`current_user_can('ma_capacite')`).
+
 ## 8. 🔒 Restriction de contenu
 
 Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît sous l'éditeur de chaque article, page ou Custom Post Type (CPT).
