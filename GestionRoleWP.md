@@ -54,3 +54,10 @@ Une fois l'option activée dans les réglages :
 1. Allez dans **Comptes > Tous les comptes**.
 2. Modifiez le profil de l'utilisateur souhaité.
 3. Dans la section **Rôles**, cochez simplement toutes les cases correspondant aux rôles à cumuler (ex: _Auteur_ + _Gestionnaire de boutique_).
+
+## 5. Restriction de contenu
+
+Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît sous l'éditeur de chaque article, page ou Custom Post Type (CPT).
+
+- **Qui peut voir ce contenu ?** Cochez les rôles autorisés à lire la page. Si rien n'est coché, le contenu reste public.
+- **Message d'erreur** : Personnalisez le texte affiché aux utilisateurs non connectés ou n'ayant pas le bon rôle.
