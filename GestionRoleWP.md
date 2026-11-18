@@ -88,7 +88,7 @@ Une fois l'option activée dans les réglages :
 2. Modifiez le profil de l'utilisateur souhaité.
 3. Dans la section **Rôles**, cochez simplement toutes les cases correspondant aux rôles à cumuler (ex: _Auteur_ + _Gestionnaire de boutique_).
 
-## 7. Capacités courantes utiles
+## 7. 💡 Capacités courantes utiles
 
 - `read` : Accès au tableau de bord WordPress (indispensable pour tout rôle back-office).
 - `edit_posts` / `publish_posts` / `delete_posts` : Gestion de ses propres articles.
