@@ -2,7 +2,16 @@
 
 Ce document récapitule les fonctionnalités clés et les bonnes pratiques pour configurer une gestion fine des rôles, des capacités (permissions) et des accès aux contenus avec l'extension **Members**.
 
-## 1. 📋 Concepts de base
+## 1. 📋 Introduction
+
+Le plugin **Members** permet d'étendre le système natif des rôles et capacités (_Capabilities_) de WordPress. Il offre une interface graphique pour :
+
+- Créer, modifier, cloner et supprimer des rôles utilisateurs.
+- Accorder ou refuser explicitement des permissions granulaires.
+- Attribuer plusieurs rôles à un seul utilisateur.
+- Restreindre l'accès au contenu (pages, articles, CPT) et au site entier.
+
+## 1. 🔑 Concepts de base
 
 Sous WordPress, les permissions reposent sur deux notions fondamentales que le plugin **Members** permet de manipuler graphiquement :
 
