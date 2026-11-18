@@ -66,11 +66,19 @@ Pour un client qui doit gérer le contenu sans casser le site :
 
 _(Adapter cette section selon les rôles créés sur votre site)_
 
-### 1. Rôles Natifs Modifiés
+### A. Rôles Natifs Modifiés
 
 - **Administrateur (`administrator`)** : Accès total. _Ne jamais retirer ses capacités critiques._
 - **Éditeur (`editor`)** : Gestion de tous les contenus. _(Ex: ajout de l'accès aux formulaires ou aux menus)._
 - **Auteur (`author`) / Contributeur (`contributor`)** : Gestion limitée à leurs propres articles.
+
+### B. Rôles Personnalisés (Custom Roles)
+
+- **`gestionnaire_boutique`** _(Cloné depuis Éditeur)_ :
+  - **Accès** : Produits WooCommerce, Commandes, Coupons.
+  - **Restrictions** : Pas d'accès aux réglages système, extensions ni thèmes.
+- **`moderateur_contenu`** _(Créé de zéro)_ :
+  - **Accès** : Modération des commentaires, relecture des articles en attente.
 
 ## 6. 🚀 Attribution de rôles multiples
 
