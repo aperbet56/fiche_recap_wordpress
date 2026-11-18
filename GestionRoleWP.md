@@ -53,7 +53,7 @@ Dans l'interface d'édition d'un rôle, chaque capacité possède deux cases à 
 - Aller dans **Membres > Réglages** et cocher l'option **Activer la fonctionnalité de rôles multiples**.
 - Dans la fiche d'un utilisateur (**Utilisateurs > Tous les utilisateurs**), il devient possible de cocher plusieurs rôles simultanément (ex. : _Auteur_ + _Modérateur de commentaires_).
 
-### Exemple : Créer un rôle "Client" sécurisé
+### D. Exemple : Créer un rôle "Client" sécurisé
 
 Pour un client qui doit gérer le contenu sans casser le site :
 
