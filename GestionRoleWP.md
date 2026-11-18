@@ -62,7 +62,7 @@ Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît
 - **Qui peut voir ce contenu ?** Cochez les rôles autorisés à lire la page. Si rien n'est coché, le contenu reste public.
 - **Message d'erreur** : Personnalisez le texte affiché aux utilisateurs non connectés ou n'ayant pas le bon rôle.
 
-## 6. Bonnes pratiques de sécurité
+## 6. 🛡️ Bonnes pratiques de sécurité
 
 - 🔒 **Principe du moindre privilège** : N'accordez que les permissions strictement nécessaires à la mission de l'utilisateur.
 - 🚫 **Ne jamais modifier le rôle Administrateur** : Gardez toujours un rôle `Administrateur` intact avec 100 % des droits pour éviter de vous bloquer hors de votre propre site.
