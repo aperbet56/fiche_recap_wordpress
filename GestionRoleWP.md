@@ -25,6 +25,12 @@ Sous WordPress, les permissions reposent sur deux notions fondamentales que le p
 3. Installer et activer l'extension.
 4. Un nouveau menu **Membres** apparaît dans la barre latérale gauche de l'administration.
 
+**Options recommandées** (dans _Membres > Réglages_) :
+
+- ✅ Activer l'éditeur de rôles et de capacités.
+- ✅ Autoriser les utilisateurs à avoir **plusieurs rôles** (très utile pour combiner des droits sans créer une multitude de rôles hybrides).
+- ✅ Activer les permissions de contenu (si besoin de restreindre certaines pages).
+
 ## 4. 🛠️ Fonctionnalités principales
 
 ### A. Créer, cloner ou modifier un rôle
