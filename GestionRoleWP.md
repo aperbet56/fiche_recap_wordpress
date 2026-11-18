@@ -46,3 +46,11 @@ Pour un client qui doit gérer le contenu sans casser le site :
 - **Refuser** dans la catégorie _Apparence_ : `switch_themes`, `edit_themes`, `edit_theme_options`.
 - **Refuser** dans la catégorie _Extensions_ : `activate_plugins`, `install_plugins`, `update_plugins`.
 - **Refuser** dans la catégorie _Général_ : `manage_options`, `export`, `import`.
+
+## 4. Attribution de rôles multiples
+
+Une fois l'option activée dans les réglages :
+
+1. Allez dans **Comptes > Tous les comptes**.
+2. Modifiez le profil de l'utilisateur souhaité.
+3. Dans la section **Rôles**, cochez simplement toutes les cases correspondant aux rôles à cumuler (ex: _Auteur_ + _Gestionnaire de boutique_).
