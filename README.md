@@ -188,6 +188,8 @@ Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
 
 Les _Hooks_ permettent de modifier le comportement de WordPress sans toucher au code natif.
 
+👉 [Hooks WordPress – Developer doc](https://developer.wordpress.org/plugins/hooks/)
+
 ### Le hook action (`add_action`) :
 
 Permettent d'exécuter du code à un moment précis du chargement de la page.
