@@ -95,6 +95,7 @@ Une fois l'option activée dans les réglages :
 - `edit_others_posts` / `delete_others_posts` : Gestion des articles des autres utilisateurs.
 - `edit_pages` : Créer et modifier des pages.
 - `manage_categories` : Création et édition des catégories et étiquettes.
+- `moderate_comments` : Gérer les commentaires.
 - `upload_files` : Accès à la médiathèque et ajout de fichiers.
 - `edit_theme_options` : Accès aux menus, widgets et personnalisation du thème.
 - `manage_options` : Accéder aux réglages généraux du site (Admin).
