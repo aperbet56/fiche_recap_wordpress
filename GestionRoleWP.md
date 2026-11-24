@@ -117,3 +117,5 @@ Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît
 - 🧩 **Compatibilité plugins tiers** : De nombreux plugins (WooCommerce, Yoast SEO, Elementor) ajoutent leurs propres onglets de permissions dans l'interface de _Members_. Vérifiez ces onglets lors de la création d'un rôle.
 
 ## 10. Créer un rôle (`add_role`)
+
+Pour éviter que le code ne s'exécute à chaque chargement de page (ce qui nuit aux performances), l'ajout d'un rôle doit idéalement être lié à **l'activation d'un plugin** ou au **changement de thème**.
