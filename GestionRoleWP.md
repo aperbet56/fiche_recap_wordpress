@@ -121,3 +121,24 @@ Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît
 Pour éviter que le code ne s'exécute à chaque chargement de page (ce qui nuit aux performances), l'ajout d'un rôle doit idéalement être lié à **l'activation d'un plugin** ou au **changement de thème**.
 
 La fonction `add_role()` prend 3 paramètres : l'identifiant (slug), le nom affiché, et un tableau de capacités (_capabilities_).
+
+### Dans un plugin (Recommandé)
+
+Utilisez `register_activation_hook()` dans le fichier principal de votre extension :
+
+```php
+<?php
+function mon_plugin_ajouter_role() {
+    add_role(
+        'gestionnaire_contenu', // Identifiant unique (slug)
+        'Gestionnaire de Contenu', // Nom affiché dans l'admin
+        [
+            'read'         => true,  // Accès au tableau de bord
+            'edit_posts'   => true,  // Peut modifier ses propres articles
+            'delete_posts' => false, // Ne peut pas supprimer ses articles
+            'upload_files' => true,  // Peut téléverser des médias
+        ]
+    );
+}
+register_activation_hook( __FILE__, 'mon_plugin_ajouter_role' );
+```
