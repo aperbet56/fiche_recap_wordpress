@@ -119,3 +119,5 @@ Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît
 ## 10. Créer un rôle (`add_role`)
 
 Pour éviter que le code ne s'exécute à chaque chargement de page (ce qui nuit aux performances), l'ajout d'un rôle doit idéalement être lié à **l'activation d'un plugin** ou au **changement de thème**.
+
+La fonction `add_role()` prend 3 paramètres : l'identifiant (slug), le nom affiché, et un tableau de capacités (_capabilities_).
