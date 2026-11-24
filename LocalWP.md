@@ -23,6 +23,8 @@ Ce fichier récapitule la configuration, l'utilisation et les bonnes pratiques l
 
 👉 [https://localwp.com](https://localwp.com)
 
+👉 [LocalWP – Installer](https://localwp.com/help-docs/getting-started/installing-local/)
+
 - **Téléchargez **Local** selon votre système d'exploitation (Windows / macOS / Linux).**
 - **Suivez l’installation classique (suivant / suivant / installer).**
 - **Lancez l’application.**
