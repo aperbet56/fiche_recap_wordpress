@@ -163,3 +163,21 @@ add_action( 'after_switch_theme', 'mon_theme_ajouter_role' );
 ```
 
 ## 11. Modifier les capacités d'un rôle existant
+
+Pour ajouter ou retirer une permission à un rôle déjà créé, utilisez `get_role()` combiné à `add_cap()` ou `remove_cap()`.
+
+```php
+<?php
+function modifier_capacites_role() {
+    \$role = get_role( 'gestionnaire_contenu' );
+
+    if ( \$role ) {
+        // Ajouter une capacité, permission
+        \$role->add_cap( 'publish_posts' );
+
+        // Retirer une capacité, permission
+        \$role->remove_cap( 'upload_files' );
+    }
+}
+add_action( 'admin_init', 'modifier_capacites_role' );
+```
