@@ -181,3 +181,5 @@ function modifier_capacites_role() {
 }
 add_action( 'admin_init', 'modifier_capacites_role' );
 ```
+
+> **Note :** `add_role()` ne met pas à jour un rôle s'il existe déjà en base de données. Il faut soit le supprimer avant de le recréer, soit utiliser `add_cap()` / `remove_cap()`.
