@@ -142,6 +142,8 @@ WordPress segmente nativement les publications en deux types :
 
 - **Constructeurs tiers (Page Builders)** : Pour des besoins ultra-spécifiques ou complexes, des extensions comme Elementor, Divi Builder ou Bricks remplacent ou complètent l'éditeur natif.
 
+👉 [Gutenberg – WPMarmite](https://wpmarmite.com/en/wordpress/gutenberg/)
+
 ## 9. 🔧 Configuration Initiale & SEO
 
 Lors du déploiement d'un site, 4 actions de configuration sont obligatoires :
