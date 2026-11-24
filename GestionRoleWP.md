@@ -142,3 +142,22 @@ function mon_plugin_ajouter_role() {
 }
 register_activation_hook( __FILE__, 'mon_plugin_ajouter_role' );
 ```
+
+### Dans un thème (`functions.php`)
+
+Utilisez le hook `after_switch_theme` :
+
+```php
+<?php
+function mon_theme_ajouter_role() {
+    add_role(
+        'gestionnaire_contenu',
+        'Gestionnaire de Contenu',
+        [
+            'read'       => true,
+            'edit_posts' => true,
+        ]
+    );
+}
+add_action( 'after_switch_theme', 'mon_theme_ajouter_role' );
+```
