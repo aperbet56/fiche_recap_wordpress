@@ -189,3 +189,11 @@ add_action( 'admin_init', 'modifier_capacites_role' );
 ## 12. Supprimer un rôle (`remove_role`)
 
 Il est recommandé de supprimer le rôle personnalisé lors de la désactivation du plugin ou du changement de thème pour garder une base de données propre :
+
+```php
+<?php
+function mon_plugin_supprimer_role() {
+    remove_role( 'gestionnaire_contenu' );
+}
+register_deactivation_hook( __FILE__, 'mon_plugin_supprimer_role' );
+```
