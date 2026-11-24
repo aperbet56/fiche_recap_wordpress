@@ -115,3 +115,5 @@ Si le module **Permissions de contenu** est actif, une nouvelle boîte apparaît
 - 🚫 **Ne jamais modifier le rôle Administrateur** : Gardez toujours un rôle `Administrateur` intact avec 100 % des droits pour éviter de vous bloquer hors de votre propre site.
 - 🔄 **Nettoyage** : Si vous désinstallez le plugin _Members_, sachez que les rôles et permissions créés restent enregistrés dans la base de données WordPress (`wp_options`). Supprimez les rôles inutiles _avant_ de désactiver le plugin.
 - 🧩 **Compatibilité plugins tiers** : De nombreux plugins (WooCommerce, Yoast SEO, Elementor) ajoutent leurs propres onglets de permissions dans l'interface de _Members_. Vérifiez ces onglets lors de la création d'un rôle.
+
+## 10. Créer un rôle (`add_role`)
