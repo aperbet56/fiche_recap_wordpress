@@ -161,3 +161,5 @@ function mon_theme_ajouter_role() {
 }
 add_action( 'after_switch_theme', 'mon_theme_ajouter_role' );
 ```
+
+## 11. Modifier les capacités d'un rôle existant
