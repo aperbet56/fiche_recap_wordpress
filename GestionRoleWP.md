@@ -198,3 +198,8 @@ function mon_plugin_supprimer_role() {
 }
 register_deactivation_hook( __FILE__, 'mon_plugin_supprimer_role' );
 ```
+
+## 13. 📚 Ressources utiles
+
+🔗 **Documentation officielle :** [WordPress Roles and Capabilities](https://wordpress.org)
+🔗 [Plugin Members – WordPress](https://developer.wordpress.org/plugins/intro/)
