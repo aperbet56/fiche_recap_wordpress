@@ -93,9 +93,11 @@ Une fois l'option activée dans les réglages :
 - `read` : Accès au tableau de bord WordPress (indispensable pour tout rôle back-office).
 - `edit_posts` / `publish_posts` / `delete_posts` : Gestion de ses propres articles.
 - `edit_others_posts` / `delete_others_posts` : Gestion des articles des autres utilisateurs.
+- `edit_pages` : Créer et modifier des pages.
 - `manage_categories` : Création et édition des catégories et étiquettes.
 - `upload_files` : Accès à la médiathèque et ajout de fichiers.
 - `edit_theme_options` : Accès aux menus, widgets et personnalisation du thème.
+- `manage_options` : Accéder aux réglages généraux du site (Admin).
 - `list_users` / `edit_users` / `create_users` : Gestion des comptes utilisateurs.
 
 - **Créer une capacité personnalisée :**
