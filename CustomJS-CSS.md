@@ -137,3 +137,8 @@ document.addEventListener("DOMContentLoaded", function () {
       wp_enqueue_script( 'script-contact', ... );
   }
   ```
+
+* **Cache navigateur (Cache Busting) :** Utilisez `filemtime()` à la place du numéro de version (`'1.0.0'`) pendant le développement pour forcer le rechargement du fichier à chaque modification :
+  ```php
+  filemtime( get_stylesheet_directory() . '/css/custom.css' )
+  ```
