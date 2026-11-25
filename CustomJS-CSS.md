@@ -23,3 +23,11 @@ Idéal pour des ajustements CSS rapides et légers (ne fonctionne pas pour le Ja
 ### Via un Thème Enfant (Recommandé)
 
 La méthode la plus propre et performante pour éviter d'alourdir la base de données et conserver vos modifications lors des mises à jour du thème parent.
+
+# 🎯 2. Ajouter du Custom CSS
+
+### Méthode A : Via l'interface native (Rapide)
+
+1. Aller dans **Apparence > Personnaliser > CSS additionnel**.
+2. Écrire le code CSS et cliquer sur **Publier**.
+   _(Note : Si vous utilisez un thème FSE / Full Site Editing récent, allez dans **Apparence > Éditeur > Styles > ⋮ > CSS additionnel**)._
