@@ -77,3 +77,21 @@ add_action('wp_enqueue_scripts', 'mon_theme_enfant_scripts');
 ## ⚡ 3. Ajouter du Custom JS
 
 WordPress **interdit** l'insertion directe de balises `<script>` dans l'éditeur classique ou le personnalisateur pour des raisons de sécurité.
+
+### Méthode recommandée : `wp_enqueue_script()` dans `functions.php`
+
+Créer un fichier `custom.js` dans le thème enfant et le déclarer ainsi :
+
+```php
+<?php
+function mon_theme_enqueue_scripts() {
+    wp_enqueue_script(
+        'custom-script', // Identifiant unique
+        get_stylesheet_directory_uri() . '/js/custom.js', // Chemin du fichier
+        array( 'jquery' ), // Dépendances (laisser array() si Vanilla JS)
+        '1.0.0', // Version
+        true // true = charger dans le footer (recommandé pour les performances)
+    );
+}
+add_action( 'wp_enqueue_scripts', 'mon_theme_enqueue_scripts' );
+```
