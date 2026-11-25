@@ -95,3 +95,7 @@ function mon_theme_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'mon_theme_enqueue_scripts' );
 ```
+
+### ⚠️ Particularité jQuery dans WordPress
+
+WordPress charge jQuery en mode **`noConflict`**. Le symbole `$` n'est pas reconnu globalement par défaut.
