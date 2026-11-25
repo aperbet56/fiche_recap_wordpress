@@ -19,3 +19,7 @@ Idéal pour des ajustements CSS rapides et légers (ne fonctionne pas pour le Ja
 
 - **Thèmes classiques :** Aller dans `Apparence > Personnaliser > CSS additionnel`.
 - **Thèmes FSE (Full Site Editing) :** Aller dans `Apparence > Éditeur > Styles (icône lune/soleil) > Trois petits points (⋮) > CSS additionnel`.
+
+### Via un Thème Enfant (Recommandé)
+
+La méthode la plus propre et performante pour éviter d'alourdir la base de données et conserver vos modifications lors des mises à jour du thème parent.
