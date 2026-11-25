@@ -73,3 +73,7 @@ function mon_theme_enfant_scripts() {
 }
 add_action('wp_enqueue_scripts', 'mon_theme_enfant_scripts');
 ```
+
+## ⚡ 3. Ajouter du Custom JS
+
+WordPress **interdit** l'insertion directe de balises `<script>` dans l'éditeur classique ou le personnalisateur pour des raisons de sécurité.
