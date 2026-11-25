@@ -99,3 +99,25 @@ add_action( 'wp_enqueue_scripts', 'mon_theme_enqueue_scripts' );
 ### ⚠️ Particularité jQuery dans WordPress
 
 WordPress charge jQuery en mode **`noConflict`**. Le symbole `$` n'est pas reconnu globalement par défaut.
+
+```javascript
+// Avec jQuery
+jQuery(document).ready(function(\$) {
+    // Votre code avec le symbole \(fonctionne ici\)('.mon-bouton').on('click', function() {
+        console.log('Clic détecté !');
+    });
+});
+```
+
+**✅ Alternative moderne (Vanilla JS - Sans jQuery) :**
+
+```javascript
+document.addEventListener("DOMContentLoaded", function () {
+  const bouton = document.querySelector(".mon-bouton");
+  if (bouton) {
+    bouton.addEventListener("click", () => {
+      console.log("Clic détecté !");
+    });
+  }
+});
+```
