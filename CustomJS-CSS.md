@@ -12,3 +12,16 @@ Idéal pour des ajustements CSS rapides et légers (ne fonctionne pas pour le Ja
 ## 2. 💡 Méthode 2 : Via un Thème Enfant (Recommandé)
 
 La méthode la plus propre et performante pour éviter d'alourdir la base de données et conserver vos modifications lors des mises à jour du thème parent.
+
+### 📁 Structure des fichiers
+
+```text
+wp-content/themes/mon-theme-enfant/
+├── style.css
+├── functions.php
+└── assets/
+    ├── css/
+    │   └── custom.css
+    └── js/
+        └── custom.js
+```
