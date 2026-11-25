@@ -34,4 +34,19 @@ La méthode la plus propre et performante pour éviter d'alourdir la base de don
 
 ### Méthode B : Via un Thème Enfant (Recommandé pour les projets complexes)
 
-Ajouter un fichier `custom.css` dans le dossier du thème enfant et le charger via `functions.php` :
+1. 📁 Structure des fichiers
+
+```text
+wp-content/themes/mon-theme-enfant/
+├── style.css
+├── functions.php
+└── assets/
+    ├── css/
+    │   └── custom.css
+    └── js/
+        └── custom.js
+```
+
+2. ⚙️ Chargement dans `functions.php`
+
+Utilisez toujours les hooks `wp_enqueue_scripts` pour charger vos fichiers proprement.
