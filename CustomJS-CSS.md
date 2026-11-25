@@ -24,6 +24,13 @@ Idéal pour des ajustements CSS rapides et légers (ne fonctionne pas pour le Ja
 
 La méthode la plus propre et performante pour éviter d'alourdir la base de données et conserver vos modifications lors des mises à jour du thème parent.
 
+### Via une Extension dédiée
+
+Pratique si vous n'avez pas de thème enfant ou si vous changez souvent de thème.
+
+- **WPCode (Insert Headers and Footers) :** Idéal pour gérer des extraits (snippets) JS, CSS et PHP avec des conditions d'affichage avancées.
+- **Simple Custom CSS and JS :** Léger, permet de créer des fichiers CSS/JS externes directement depuis l'administration.
+
 # 🎯 2. Ajouter du Custom CSS
 
 ### Méthode A : Via l'interface native (Rapide)
