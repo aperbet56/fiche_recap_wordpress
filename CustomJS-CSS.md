@@ -132,6 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
 ## 🚀 4. Bonnes pratiques - Astuces - Sécurité
 
 - **Chargement conditionnel :** Évitez de charger un script lourd sur tout le site s'il ne sert que sur une page.
+
   ```php
   if ( is_page( 'contact' ) ) {
       wp_enqueue_script( 'script-contact', ... );
@@ -139,6 +140,9 @@ document.addEventListener("DOMContentLoaded", function () {
   ```
 
 * **Cache navigateur (Cache Busting) :** Utilisez `filemtime()` à la place du numéro de version (`'1.0.0'`) pendant le développement pour forcer le rechargement du fichier à chaque modification :
+
   ```php
   filemtime( get_stylesheet_directory() . '/css/custom.css' )
   ```
+
+* **Ciblage CSS spécifique :** WordPress ajoute automatiquement des classes utiles sur la balise `<body>` (ex: `.home`, `.page-id-42`, `.logged-in`, `.single-post`). Utilisez-les pour isoler vos styles.
