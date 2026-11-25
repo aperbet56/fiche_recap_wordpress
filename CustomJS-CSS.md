@@ -152,3 +152,12 @@ document.addEventListener("DOMContentLoaded", function () {
 * **Ciblage précis :** Utilisez les classes générées automatiquement dans la balise `<body>` par WordPress (ex: `.page-id-42`, `.logged-in`, `.single-post`) pour cibler un élément sans affecter le reste du site.
 * **Éviter `!important` :** Privilégiez une meilleure spécificité CSS (ex: `body .ma-classe` au lieu de `.ma-classe { color: red !important; }`).
 * **Gestion du cache :** Pensez à incrémenter le numéro de version (`'1.0.1'`) dans `wp_enqueue_style` / `wp_enqueue_script` et à vider votre plugin de cache après chaque modification.
+
+## 5. 🛠️ Débogage rapide
+
+| Problème rencontré                                      | Solution / Vérification                                                                                                       |
+| :------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------- |
+| **Le CSS ne s'applique pas**                            | Vider le cache (navigateur + plugin de cache WordPress + CDN). Vérifier la priorité des sélecteurs dans l'inspecteur (`F12`). |
+| **Erreur JS `Uncaught TypeError: $ is not a function`** | Encapsuler le code jQuery dans `jQuery(function($) { ... });`.                                                                |
+| **Le script ne trouve pas l'élément HTML**              | Vérifier que le script est bien chargé dans le footer (`true` en 5e paramètre) ou entouré de `DOMContentLoaded`.              |
+| **Écran blanc après modification de `functions.php`**   | Erreur de syntaxe PHP. Se connecter en FTP/SFTP et corriger ou annuler la dernière modification.                              |
