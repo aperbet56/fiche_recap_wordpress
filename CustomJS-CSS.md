@@ -12,3 +12,10 @@ Guide récapitulatif des bonnes pratiques pour ajouter, gérer et optimiser du c
 | **Constructeur de pages (Elementor, Divi...)**     | ✅  | ✅  | Ciblé par page ou élément                | Code dispersé, difficile à maintenir |
 
 > ⚠️ **Règle d'or :** Ne jamais modifier directement les fichiers d'un thème parent ou d'une extension (écrasement garanti à la prochaine mise à jour).
+
+### Ajouter du CSS Sans code (Via l'interface WordPress)
+
+Idéal pour des ajustements CSS rapides et légers (ne fonctionne pas pour le JavaScript).
+
+- **Thèmes classiques :** Aller dans `Apparence > Personnaliser > CSS additionnel`.
+- **Thèmes FSE (Full Site Editing) :** Aller dans `Apparence > Éditeur > Styles (icône lune/soleil) > Trois petits points (⋮) > CSS additionnel`.
