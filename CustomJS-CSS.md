@@ -153,6 +153,12 @@ document.addEventListener("DOMContentLoaded", function () {
 * **Éviter `!important` :** Privilégiez une meilleure spécificité CSS (ex: `body .ma-classe` au lieu de `.ma-classe { color: red !important; }`).
 * **Gestion du cache :** Pensez à incrémenter le numéro de version (`'1.0.1'`) dans `wp_enqueue_style` / `wp_enqueue_script` et à vider votre plugin de cache après chaque modification. Après toute modification CSS/JS, pensez à vider le cache de votre extension (WP Rocket, LiteSpeed, etc.) et celui de votre navigateur (`Ctrl + F5` ou `Cmd + Shift + R`).
 * **Chargement dans le footer :** Privilégiez le chargement des scripts en pied de page (`true` en 5e paramètre de `wp_enqueue_script`) pour ne pas bloquer l'affichage de la page (Render-blocking).
+* **Chargement conditionnel :** Si un script n'est utile que sur la page Contact, utilisez les _Conditional Tags_ de WordPress pour ne pas alourdir tout le site :
+  ```php
+  if ( is_page('contact') ) {
+      wp_enqueue_script( ... );
+      }
+  ```
 
 ## 5. 🛠️ Débogage rapide
 
