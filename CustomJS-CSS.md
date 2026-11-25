@@ -128,3 +128,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 ```
+
+## 🚀 4. Bonnes pratiques - Astuces - Sécurité
+
+- **Chargement conditionnel :** Évitez de charger un script lourd sur tout le site s'il ne sert que sur une page.
+  ```php
+  if ( is_page( 'contact' ) ) {
+      wp_enqueue_script( 'script-contact', ... );
+  }
+  ```
