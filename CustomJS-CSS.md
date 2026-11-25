@@ -50,3 +50,26 @@ wp-content/themes/mon-theme-enfant/
 2. ⚙️ Chargement dans `functions.php`
 
 Utilisez toujours les hooks `wp_enqueue_scripts` pour charger vos fichiers proprement.
+
+```php
+<?php
+function mon_theme_enfant_scripts() {
+    // 1. Charger le CSS personnalisé
+    wp_enqueue_style(
+        'mon-custom-css', // Identifiant unique (handle)
+        get_stylesheet_directory_uri() . '/assets/css/custom.css', // Chemin
+        array(), // Dépendances éventuelles
+        '1.0.0' // Version (utile pour vider le cache)
+    );
+
+    // 2. Charger le JS personnalisé
+    wp_enqueue_script(
+        'mon-custom-js', // Identifiant unique (handle)
+        get_stylesheet_directory_uri() . '/assets/js/custom.js', // Chemin du fichier
+        array('jquery'), // Dépendances (ex: 'jquery' ou array() pour du Vanilla JS)
+        '1.0.0', // Version
+        true // Charger dans le footer (true = recommandé pour les performances)
+    );
+}
+add_action('wp_enqueue_scripts', 'mon_theme_enfant_scripts');
+```
