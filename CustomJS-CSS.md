@@ -31,3 +31,7 @@ La méthode la plus propre et performante pour éviter d'alourdir la base de don
 1. Aller dans **Apparence > Personnaliser > CSS additionnel**.
 2. Écrire le code CSS et cliquer sur **Publier**.
    _(Note : Si vous utilisez un thème FSE / Full Site Editing récent, allez dans **Apparence > Éditeur > Styles > ⋮ > CSS additionnel**)._
+
+### Méthode B : Via un Thème Enfant (Recommandé pour les projets complexes)
+
+Ajouter un fichier `custom.css` dans le dossier du thème enfant et le charger via `functions.php` :
