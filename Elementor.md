@@ -45,3 +45,12 @@
 ## ⌨️ Raccourcis Clavier Utiles
 
 _(Remplacer `Ctrl` par `Cmd` sur macOS)_
+
+- `Ctrl + Z` : Annuler la dernière action
+- `Ctrl + Shift + Z` : Rétablir l'action
+- `Ctrl + C` / `Ctrl + V` : Copier / Coller un élément
+- `Ctrl + Shift + V` : **Coller le style uniquement** d'un élément sur un autre
+- `Ctrl + D` : Dupliquer l'élément sélectionné
+- `Ctrl + E` : Ouvrir le **Finder** (navigation rapide entre les pages et réglages)
+- `Ctrl + I` : Ouvrir/Fermer le **Navigateur** (arborescence)
+- `Ctrl + P` : Basculer entre le mode édition et l'aperçu complet
