@@ -29,6 +29,14 @@
 
 ## 3. 🧱 Structure de l'Interface
 
+### 🧱 Architecture d'une Page
+
+1. **Conteneur (Container)** : La brique de base qui structure la mise en page (en ligne ou en colonne) et gère l'alignement des éléments internes.
+
+2. **Widgets** : Les blocs de contenu placés à l'intérieur des conteneurs (Texte, Image, Formulaire, Carrousel, etc.).
+
+### Configuration
+
 1. **Panneau de gauche (L'Inspecteur) :**
 
    - **Contenu :** Textes, images, liens, requêtes.
