@@ -41,3 +41,7 @@
    - **Navigateur (Structure) :** Vue en arborescence pour sélectionner et réorganiser facilement les éléments imbriqués.
    - **Historique :** Annuler/Rétablir des actions ou revenir à une révision précédente.
    - **Mode Responsive :** Basculer entre les vues Desktop, Tablette et Mobile.
+
+## ⌨️ Raccourcis Clavier Utiles
+
+_(Remplacer `Ctrl` par `Cmd` sur macOS)_
