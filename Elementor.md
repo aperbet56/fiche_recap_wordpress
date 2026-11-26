@@ -13,3 +13,5 @@
 * **Bibliothèque de modèles :** Accès à des centaines de blocs et de pages préconçus prêts à l'emploi.
 
 * **Styles globaux (Design System) :** Gestion centralisée des couleurs, typographies et styles de boutons sur l'ensemble du site.
+
+## 2. 🆓 Elementor Free vs 💎 Elementor Pro
