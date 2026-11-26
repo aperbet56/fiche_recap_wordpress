@@ -30,6 +30,9 @@
 ## 3. 🧱 Structure de l'Interface
 
 1. **Panneau de gauche (L'Inspecteur) :**
+
    - **Contenu :** Textes, images, liens, requêtes.
    - **Style :** Couleurs, typographie, marges intérieures (_Padding_), bordures, ombres.
    - **Avancé :** Marges extérieures (_Margin_), animations, positionnement, attributs personnalisés et responsive.
+
+2. **Zone centrale (Le Canevas) :** L'aperçu en direct de votre page.
