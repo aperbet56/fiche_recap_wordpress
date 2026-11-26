@@ -42,7 +42,7 @@
    - **Historique :** Annuler/Rétablir des actions ou revenir à une révision précédente.
    - **Mode Responsive :** Basculer entre les vues Desktop, Tablette et Mobile.
 
-## ⌨️ Raccourcis Clavier Utiles
+## ⌨️ Raccourcis Clavier Utiles (Windows / Mac)
 
 _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 
@@ -68,3 +68,7 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - **Optimiser les médias :** Compressez toujours vos images (format WebP recommandé) avant de les importer dans WordPress.
 
 ## 6. 🔗 Ressources Officielles
+
+- [Site officiel d'Elementor](https://elementor.com)
+- [Documentation et Centre d'aide](https://elementor.comhelp/)
+- [Chaîne YouTube officielle (Tutoriels)](https://youtube.com)
