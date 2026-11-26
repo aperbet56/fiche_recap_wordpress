@@ -66,3 +66,5 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - **Utiliser le thème Hello Elementor :** C'est un thème ultra-léger conçu spécialement pour servir de toile vierge au _Theme Builder_ d'Elementor Pro.
 
 - **Optimiser les médias :** Compressez toujours vos images (format WebP recommandé) avant de les importer dans WordPress.
+
+## 6. 🔗 Ressources Officielles
