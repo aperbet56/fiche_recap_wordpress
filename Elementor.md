@@ -36,3 +36,8 @@
    - **Avancé :** Marges extérieures (_Margin_), animations, positionnement, attributs personnalisés et responsive.
 
 2. **Zone centrale (Le Canevas) :** L'aperçu en direct de votre page.
+
+3. **Barre supérieure / inférieure :**
+   - **Navigateur (Structure) :** Vue en arborescence pour sélectionner et réorganiser facilement les éléments imbriqués.
+   - **Historique :** Annuler/Rétablir des actions ou revenir à une révision précédente.
+   - **Mode Responsive :** Basculer entre les vues Desktop, Tablette et Mobile.
