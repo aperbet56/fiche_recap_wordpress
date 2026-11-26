@@ -42,7 +42,7 @@
    - **Historique :** Annuler/Rétablir des actions ou revenir à une révision précédente.
    - **Mode Responsive :** Basculer entre les vues Desktop, Tablette et Mobile.
 
-## ⌨️ Raccourcis Clavier Utiles (Windows / Mac)
+## 4. ⌨️ Raccourcis Clavier Utiles (Windows / Mac)
 
 _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 
@@ -66,6 +66,8 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - **Utiliser le thème Hello Elementor :** C'est un thème ultra-léger conçu spécialement pour servir de toile vierge au _Theme Builder_ d'Elementor Pro.
 
 - **Optimiser les médias :** Compressez toujours vos images (format WebP recommandé) avant de les importer dans WordPress.
+
+* **Activer les fonctionnalités d'optimisation** : Dans _Elementor > Réglages > Fonctionnalités_, activer le chargement optimisé du DOM et des ressources CSS/JS.
 
 ## 6. 🔗 Ressources Officielles
 
