@@ -71,4 +71,4 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 
 - [Site officiel d'Elementor](https://elementor.com)
 - [Documentation et Centre d'aide](https://elementor.comhelp/)
-- [Chaîne YouTube officielle (Tutoriels)](https://youtube.com)
+- [Répertoire WordPress (Version Gratuite)](https://wordpress.org)
