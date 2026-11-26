@@ -15,3 +15,14 @@
 * **Styles globaux (Design System) :** Gestion centralisée des couleurs, typographies et styles de boutons sur l'ensemble du site.
 
 ## 2. 🆓 Elementor Free vs 💎 Elementor Pro
+
+| Fonctionnalité                                                    | Version Gratuite (Free) | Version Payante (Pro) |
+| :---------------------------------------------------------------- | :---------------------: | :-------------------: |
+| **Éditeur glisser-déposer**                                       |           ✅            |          ✅           |
+| **Widgets de base** (Texte, Image, Vidéo, Bouton...)              |    ✅ (30+ widgets)     |   ✅ (100+ widgets)   |
+| **Theme Builder** (En-tête, Pied de page, Pages 404, Archives)    |           ❌            |          ✅           |
+| **Popup Builder** (Fenêtres modales et bannières)                 |           ❌            |          ✅           |
+| **Form Builder** (Formulaires de contact avancés)                 |           ❌            |          ✅           |
+| **WooCommerce Builder** (Fiches produits et boutiques sur-mesure) |           ❌            |          ✅           |
+| **Contenu dynamique** (ACF, Pods, Toolset)                        |           ❌            |          ✅           |
+| **CSS personnalisé** par élément                                  |           ❌            |          ✅           |
