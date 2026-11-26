@@ -56,3 +56,9 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - `Ctrl + P` : Basculer entre le mode édition et l'aperçu complet
 
 ## 5. 💡 Bonnes Pratiques
+
+- **Privilégier les Conteneurs (Flexbox / Grid) :** Évitez l'ancien système de "Sections et Colonnes" pour alléger le code DOM et améliorer la vitesse de chargement.
+- **Utiliser les Styles Globaux :** Définissez vos polices et palettes de couleurs dans les _Réglages du site_ plutôt que de styliser chaque widget individuellement.
+- **Limiter les imbrications :** Moins il y a de conteneurs imbriqués les uns dans les autres, plus le site sera rapide (meilleur score Google PageSpeed).
+- **Utiliser le thème Hello Elementor :** C'est un thème ultra-léger conçu spécialement pour servir de toile vierge au _Theme Builder_ d'Elementor Pro.
+- **Optimiser les médias :** Compressez toujours vos images (format WebP recommandé) avant de les importer dans WordPress.
