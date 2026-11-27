@@ -116,6 +116,7 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - - **Thèmes compatibles** : _Hello Elementor_, _Astra_, _GeneratePress_, _Kadence_.
 - **Champs personnalisés** : _ACF (Advanced Custom Fields)_ pour créer des sites dynamiques complexes (annuaires, immobilier, portfolios).
 - **Performance / Cache** : _WP Rocket_ ou _LiteSpeed Cache_.
+- **SEO** : _Rank Math_, _Yoast SEO_ (intégrés directement dans l'interface Elementor).
 
 ## 7. 🔗 Ressources Officielles
 
