@@ -108,6 +108,10 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 
 ## 6. 💻 Écosystème Recommandé
 
+- **Thème** : _Hello Elementor_ (thème officiel ultra-léger, conçu spécifiquement pour être personnalisé à 100 % avec Elementor).
+- **Champs personnalisés** : _ACF (Advanced Custom Fields)_ pour créer des sites dynamiques complexes (annuaires, immobilier, portfolios).
+- **Performance / Cache** : _WP Rocket_ ou _LiteSpeed Cache_.
+
 ## 7. 🔗 Ressources Officielles
 
 - [Site officiel d'Elementor](https://elementor.com)
