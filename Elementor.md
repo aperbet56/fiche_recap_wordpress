@@ -35,6 +35,8 @@
 
 2. **Widgets** : Les blocs de contenu placés à l'intérieur des conteneurs (Texte, Image, Formulaire, Carrousel, etc.).
 
+### 🧩 Widgets Essentiels
+
 ### ⚙️ Configuration
 
 1. **Panneau de gauche (L'Inspecteur) :**
