@@ -37,6 +37,12 @@
 
 ### 🧩 Widgets Essentiels
 
+1. **Gratuit**
+
+- **Mise en page :** Conteneur, Espaceur (`Spacer`), Séparateur (`Divider`).
+- **Contenu :** Titre (`Heading`), Éditeur de texte, Image, Vidéo, Bouton, Icône.
+- **Médias & Interaction :** Carrousel d'images, Galerie de base, Accordéon, Onglets (`Tabs`), Compteur, Barre de progression.
+
 ### ⚙️ Configuration
 
 1. **Panneau de gauche (L'Inspecteur) :**
