@@ -102,7 +102,13 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 
 * **Limiter les add-ons :** Ne pas multiplier les extensions tierces (Essential Addons, Crocoblock, etc.) si Elementor natif suffit.
 
-## 6. 🔗 Ressources Officielles
+* **Activer les fonctionnalités de performance** : Dans _Elementor > Réglages > Fonctionnalités_, activer le chargement optimisé du DOM, l'amélioration du chargement CSS et le chargement différé (Lazy Load) des images.
+
+* **Mobile-First / Responsive** : Toujours vérifier les 3 points de rupture principaux (**Ordinateur, Tablette, Mobile**) via la barre inférieure de l'éditeur.
+
+## 6. 💻 Écosystème Recommandé
+
+## 7. 🔗 Ressources Officielles
 
 - [Site officiel d'Elementor](https://elementor.com)
 - [Documentation et Centre d'aide](https://elementor.comhelp/)
