@@ -80,6 +80,8 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 
 * **Désactiver les fonctionnalités inutiles :** Aller dans _Elementor > Réglages > Fonctionnalités_ pour activer les améliorations de performance (ex: _Chargement CSS amélioré_, _Chargement des polices Google en local_).
 
+* **Limiter les add-ons :** Ne pas multiplier les extensions tierces (Essential Addons, Crocoblock, etc.) si Elementor natif suffit.
+
 ## 6. 🔗 Ressources Officielles
 
 - [Site officiel d'Elementor](https://elementor.com)
