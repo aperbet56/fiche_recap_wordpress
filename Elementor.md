@@ -83,6 +83,7 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - `Ctrl + I` : Ouvrir/Fermer le **Navigateur** (arborescence)
 - `Ctrl + P` : Basculer entre le mode édition et l'aperçu complet
 - `Ctrl + S` : Enregistrer / Mettre à jour
+- `Ctrl + Shift + M` : Mode Responsive
 
 ## 5. 💡 Bonnes Pratiques - Sécurité - Performances
 
