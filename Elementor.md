@@ -62,6 +62,7 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - `Ctrl + E` : Ouvrir le **Finder** (navigation rapide entre les pages et réglages)
 - `Ctrl + I` : Ouvrir/Fermer le **Navigateur** (arborescence)
 - `Ctrl + P` : Basculer entre le mode édition et l'aperçu complet
+- `Ctrl + S` : Enregistrer / Mettre à jour
 
 ## 5. 💡 Bonnes Pratiques
 
