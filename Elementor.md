@@ -106,6 +106,10 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 
 * **Mobile-First / Responsive** : Toujours vérifier les 3 points de rupture principaux (**Ordinateur, Tablette, Mobile**) via la barre inférieure de l'éditeur.
 
+* **Respecter la sémantique HTML :**
+  - Utiliser une seule balise `<h1>` par page.
+  - Changer la balise HTML des conteneurs principaux (`<header>`, `<main>`, `<section>`, `<footer>`) dans l'onglet _Mise en page > Options supplémentaires_.
+
 ## 6. 💻 Écosystème Recommandé
 
 - **Thème** : _Hello Elementor_ (thème officiel ultra-léger, conçu spécifiquement pour être personnalisé à 100 % avec Elementor).
