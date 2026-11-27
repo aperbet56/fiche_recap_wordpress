@@ -43,6 +43,12 @@
 - **Contenu :** Titre (`Heading`), Éditeur de texte, Image, Vidéo, Bouton, Icône.
 - **Médias & Interaction :** Carrousel d'images, Galerie de base, Accordéon, Onglets (`Tabs`), Compteur, Barre de progression.
 
+2. **Pro (Les plus utilisés)**
+
+- **Site :** Logo du site, Menu de navigation (`Nav Menu`), Fil d'Ariane (`Breadcrumbs`), Barre de recherche.
+- **Conversion :** Formulaire (`Form`), Bouton d'appel à l'action (`Call to Action`), Tableau de prix (`Price Table`), Compte à rebours.
+- **Publication :** Grille d'articles (`Posts`), Portfolio, Boucle personnalisée (`Loop Grid`).
+
 ### ⚙️ Configuration
 
 1. **Panneau de gauche (L'Inspecteur) :**
