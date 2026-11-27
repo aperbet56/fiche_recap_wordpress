@@ -35,6 +35,12 @@
 
 2. **Widgets** : Les blocs de contenu placés à l'intérieur des conteneurs (Texte, Image, Formulaire, Carrousel, etc.).
 
+3. **Réglages Globaux (Site Settings)** : Le système de design centralisé du site :
+
+- _Couleurs globales_ (Principale, Secondaire, Texte, Accent).
+- _Polices globales_ (Titres, Corps de texte).
+- _Styles de thème_ (Boutons, Images, Champs de formulaire).
+
 ### 🧩 Widgets Essentiels
 
 1. **Gratuit**
