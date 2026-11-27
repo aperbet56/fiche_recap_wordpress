@@ -64,7 +64,7 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - `Ctrl + P` : Basculer entre le mode édition et l'aperçu complet
 - `Ctrl + S` : Enregistrer / Mettre à jour
 
-## 5. 💡 Bonnes Pratiques
+## 5. 💡 Bonnes Pratiques - Sécurité - Performances
 
 - **Privilégier les Conteneurs (Flexbox / Grid) :** Évitez l'ancien système de "Sections et Colonnes" pour alléger le code DOM et améliorer la vitesse de chargement.
 
@@ -77,6 +77,8 @@ _(Remplacer `Ctrl` par `Cmd` sur macOS)_
 - **Optimiser les médias :** Compressez toujours vos images (format WebP recommandé) avant de les importer dans WordPress.
 
 * **Activer les fonctionnalités d'optimisation** : Dans _Elementor > Réglages > Fonctionnalités_, activer le chargement optimisé du DOM et des ressources CSS/JS.
+
+* **Désactiver les fonctionnalités inutiles :** Aller dans _Elementor > Réglages > Fonctionnalités_ pour activer les améliorations de performance (ex: _Chargement CSS amélioré_, _Chargement des polices Google en local_).
 
 ## 6. 🔗 Ressources Officielles
 
